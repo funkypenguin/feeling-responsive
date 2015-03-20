@@ -2,7 +2,7 @@
 [![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
 
 ## A Responsive Jekyll Theme: *Feeling Responsive*
-
+Test
 Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
 
 To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
