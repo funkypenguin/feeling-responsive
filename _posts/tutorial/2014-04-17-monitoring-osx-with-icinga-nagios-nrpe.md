@@ -10,7 +10,7 @@ tags:
   - nagios
   - osx
 ---
-I have a fairly comprehensive [Icinga][1] monitoring platform monitoring my various linux hosts, but one area which has been lacking until now is the monitoring of the OSX Mavericks Mac Mini that I use for a home media center. Considering this is used by my family to watch <a title="Plex" href="http://plex.tv" target="_blank">TV/Movies</a>, play music, and manage iPhoto, it&#8217;s arguably one of the most important hosts to monitor carefully. Of course, I could monitor its state (up or down) by pinging it from Icinga, but I wanted to know more than that. I&#8217;ve had issues in the past with running out of disk space on the host, and I&#8217;m all to familiar with the risks of 4-year-old hardware using spindled disks. This solution enables me to monitor the following on OSX with Icinga:
+I have a fairly comprehensive [Icinga][1] monitoring platform monitoring my various linux hosts, but one area which has been lacking until now is the monitoring of the OSX Mavericks Mac Mini that I use for a home media center. Considering this is used by my family to watch <a title="Plex" href="http://plex.tv" target="_blank">TV/Movies</a>, play music, and manage iPhoto, it's arguably one of the most important hosts to monitor carefully. Of course, I could monitor its state (up or down) by pinging it from Icinga, but I wanted to know more than that. I've had issues in the past with running out of disk space on the host, and I'm all to familiar with the risks of 4-year-old hardware using spindled disks. This solution enables me to monitor the following on OSX with Icinga:
 
   * Load/Memory
   * Disk Usage
@@ -44,6 +44,6 @@ I have a fairly comprehensive [Icinga][1] monitoring platform monitoring my vari
 
 # Exclusions
 
-I haven&#8217;t covered adding the services to Icinga &#8211; if you&#8217;re comfortable with Icinga and NRPE already, it&#8217;ll be obvious from the command definitions above.
+I haven't covered adding the services to Icinga &#8211; if you're comfortable with Icinga and NRPE already, it'll be obvious from the command definitions above.
 
  [1]: http://www.icinga.org "Icinga"

@@ -4,7 +4,7 @@ author: David
 layout: page
 permalink: /opinion/working-late-consistently-is-a-sign-of-failure/
 categories:
-  - Opinion
+  - opinion
 ---
 I recently enjoyed [this][1] article, in which [Jeff Sutherland][2] describes how working longer hours actually makes you **less** productive.
 

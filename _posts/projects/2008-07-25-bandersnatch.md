@@ -24,7 +24,7 @@ Bandersnatch is tool to log Jabber instant messaging traffic, and to generate me
 
 ### Peer-Policing
 
-Bandersnatch is intended to be a deterrent to corporate users abusing a Jabber system for personal purposes. It is designed around the &#8220;peer-policing&#8221; theory, which hypothesizes that:
+Bandersnatch is intended to be a deterrent to corporate users abusing a Jabber system for personal purposes. It is designed around the "peer-policing&#8221; theory, which hypothesizes that:
 
 <p style="padding-left: 30px;">
   &#8221;If an individual is aware that their activities are publicly visible, they are likely to limit their activities to the public standard&#8221;.
@@ -39,7 +39,7 @@ message logs are not publicly visible.
 
 ### What information is visible to the administrator?
 
-The administrator is able to view individual message logs. Administrators must &#8220;log in&#8221; in order to view logs.
+The administrator is able to view individual message logs. Administrators must "log in&#8221; in order to view logs.
 
 ### Privacy
 

@@ -40,7 +40,7 @@ Unpack the wp-phplist plugin zipfile. You should see the following files and fol
 
 ## PHPList modifications for WP-PHPList
 
-Copy the contents of the &#8220;lists&#8221; folder into your PHPList &#8220;lists&#8221; folder. The objective is to overwrite the following files:
+Copy the contents of the "lists&#8221; folder into your PHPList "lists&#8221; folder. The objective is to overwrite the following files:
 
   * lists/index.php
   * lists/admin/commonlib/lib/userlib.php
@@ -53,16 +53,16 @@ Make sure your PHPList installation is setup correctly, required path and URL co
 
 ## WordPress installation for WP-PHPList
 
-Make sure you have &#8220;Pretty Permalinks&#8221; enabled in WordPress. WP-PHPList uses this to cretae the &#8220;slug&#8221; below.
+Make sure you have "Pretty Permalinks&#8221; enabled in WordPress. WP-PHPList uses this to cretae the "slug&#8221; below.
 
-Copy the &#8220;wp-phplist&#8221; folder into your WordPress wp-content/plugins folder. You must end up with the folder structure wp-content/plugins/wp-phplist/.
+Copy the "wp-phplist&#8221; folder into your WordPress wp-content/plugins folder. You must end up with the folder structure wp-content/plugins/wp-phplist/.
 
 Activate the plugin in WordPress, and double-check the options under Admin -> Options -> PHPList.
 
-  * **PHPList public pages slug** : The WordPress &#8220;slug&#8221; you want PHPList to be accessible as, for example: http://your.blog.com/newsletter.
+  * **PHPList public pages slug** : The WordPress "slug&#8221; you want PHPList to be accessible as, for example: http://your.blog.com/newsletter.
   * **PHPList default subscribe page** : PHPList lets you define multiple subscribe pages, each requesting different information from users, and making different lists available. Enter the number of the subscribe page you want to use (default is 1), or leave it blank to let PHPList prompt you.
   * **PHPList embedded page title** : The title WordPress will display on PHPList&#8217;s page. (Formatted the same as a default blog post title)
-  * **PHPList relative path** : The path to your PHPList &#8220;lists&#8221; directory, relative to your WordPress root. By default the plugin assumes that the &#8220;lists&#8221; directory is a subdirectory of your WordPress install. If PHPList is installed in the same directory as WordPress, this will be &#8220;../phplist&#8221;.
+  * **PHPList relative path** : The path to your PHPList "lists&#8221; directory, relative to your WordPress root. By default the plugin assumes that the "lists&#8221; directory is a subdirectory of your WordPress install. If PHPList is installed in the same directory as WordPress, this will be "../phplist&#8221;.
 
 ## Test PHPList in WordPress
 
@@ -74,7 +74,7 @@ Remember to change your subscribe / unsubscribe / confirmation URLs in PHPList t
 
 ### Theme Integration
 
-The &#8220;wp-phplist/wp-phplist-page.php&#8221; is based on the default template&#8217;s &#8220;single.php&#8221; file. Your template may use other CSS class values, and you&#8217;ll need to adjust &#8220;wp-phplist-page.php&#8221; accordingly.
+The "wp-phplist/wp-phplist-page.php&#8221; is based on the default template&#8217;s "single.php&#8221; file. Your template may use other CSS class values, and you&#8217;ll need to adjust "wp-phplist-page.php&#8221; accordingly.
 
 ### Shared Databases
 
@@ -82,13 +82,13 @@ You&#8217;ll get best results if your WordPress and PHPList installations share 
 
 WordPress database error Table &#8216;newsletter\_phplist.wp\_terms&#8217; doesn&#8217;t exist for query SELECT t.\*, tt.\* FROM wp_terms..
 
-Combining your databases shouldn&#8217;t be a problem, since PHPList defaults to a table prefix of &#8220;phplist\_&#8221;, and WordPress to &#8220;wp\_&#8221;.
+Combining your databases shouldn&#8217;t be a problem, since PHPList defaults to a table prefix of "phplist\_&#8221;, and WordPress to "wp\_&#8221;.
 
 ### PHPList standalone
 
-We&#8217;ve &#8220;broken&#8221; the PHPList index file, which displays your subscribe pages, to make it fit into your blog. If you still want to use PHPList&#8217;s interface **as well as** the interface within WordPress, you&#8217;ll probably want another (unaltered) copy of lists/index.php.
+We&#8217;ve "broken&#8221; the PHPList index file, which displays your subscribe pages, to make it fit into your blog. If you still want to use PHPList&#8217;s interface **as well as** the interface within WordPress, you&#8217;ll probably want another (unaltered) copy of lists/index.php.
 
-Let&#8217;s assume you call it &#8220;index\_for\_wordpress.php&#8221;. Edit wp-content/plugins/wp-phplist/wp-phplist-page.php, look for &#8220;index.php&#8221;, and change it to &#8220;index\_for\_wordpress.php&#8221;.
+Let&#8217;s assume you call it "index\_for\_wordpress.php&#8221;. Edit wp-content/plugins/wp-phplist/wp-phplist-page.php, look for "index.php&#8221;, and change it to "index\_for\_wordpress.php&#8221;.
 
 ## Optional extra
 

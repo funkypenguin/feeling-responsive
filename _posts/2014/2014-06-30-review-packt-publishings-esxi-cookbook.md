@@ -1,10 +1,9 @@
 ---
-title: 'Review of Packt Publishing&#8217;s ESXi Cookbook'
-author: David
+title: "Review of Packt Publishing's ESXi Cookbook"
 layout: page
 permalink: /opinion/review-packt-publishings-esxi-cookbook/
 categories:
-  - Opinion
+  - opinion
 tags:
   - review
   - vmware
@@ -15,9 +14,9 @@ Because I previously authored a [book on PHPList][1], I was asked by the folks a
 
 I skimmed through most of the book, but spent some more time on the final chapter re vSphere Update Manager, because that was an outstanding task I had to complete on my own platforms. There are detailed and comprehensive instructions to guide the reader through the process of setting up and using Update Manager.
 
-Unfortunately, due to the rapidly changing nature of the content, the book is already out of date. It&#8217;s written with ESXi 5.1 in mind, and ESXi 5.5 was [released in Sept 2013][6]. Fortunately vSphere Web Client was used for all the screenshots (*with the exception of Update Manager, but that would still the case on ESXi 5.5*), so most of the book should translate well to ESXi 5.5. Certain portions of book won&#8217;t line up with the latest version of ESXi, especially chapter #2, regarding the installation of vCenter Server. (SSO was rewritten for ESXi 5.5, for example)
+Unfortunately, due to the rapidly changing nature of the content, the book is already out of date. It's written with ESXi 5.1 in mind, and ESXi 5.5 was [released in Sept 2013][6]. Fortunately vSphere Web Client was used for all the screenshots (*with the exception of Update Manager, but that would still the case on ESXi 5.5*), so most of the book should translate well to ESXi 5.5. Certain portions of book won't line up with the latest version of ESXi, especially chapter #2, regarding the installation of vCenter Server. (SSO was rewritten for ESXi 5.5, for example)
 
-Overall, I&#8217;d rate it as a good read for someone wanting to gain familiarity with the ESXi platform, and as a good reference for those who use it routinely, but may not have explored it&#8217;s entire featureset.
+Overall, I'd rate it as a good read for someone wanting to gain familiarity with the ESXi platform, and as a good reference for those who use it routinely, but may not have explored it's entire featureset.
 
  [1]: http://www.packtpub.com/phplist-2-e-mail-campaign-manager/book
  [2]: http://www.packtpub.com

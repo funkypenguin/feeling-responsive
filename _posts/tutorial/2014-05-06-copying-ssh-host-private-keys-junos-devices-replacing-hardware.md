@@ -11,7 +11,7 @@ tags:
   - junos
   - ssh
 ---
-A certain customer of mine is (rightly or wrongly) pedantic about security warnings. Recently, we did a hardware replacement of a JUNOS device (an SRX240 firewall). While the config was a drop-in replacement, users who tried to SSH to the host post-migration would normally see an SSH &#8220;host key has changed&#8221; warning. In this environment, we wanted to eliminate this friction (and stop training our users to ignore security warnings), so we copied the following from the old device:
+A certain customer of mine is (rightly or wrongly) pedantic about security warnings. Recently, we did a hardware replacement of a JUNOS device (an SRX240 firewall). While the config was a drop-in replacement, users who tried to SSH to the host post-migration would normally see an SSH "host key has changed" warning. In this environment, we wanted to eliminate this friction (and stop training our users to ignore security warnings), so we copied the following from the old device:
 
   * /etc/ssh/ssh\_host\_dsa_key
   * /etc/ssh/ssh\_host\_dsa_key.pub

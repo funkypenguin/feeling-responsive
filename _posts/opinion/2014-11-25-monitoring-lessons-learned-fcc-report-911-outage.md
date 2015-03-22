@@ -4,21 +4,21 @@ author: David
 layout: page
 permalink: /opinion/monitoring-lessons-learned-fcc-report-911-outage/
 categories:
-  - Opinion
+  - opinion
 tags:
   - featured
   - monitoring
 ---
 [IEEE Spectrum][1] highlighted an [FCC report][2] into a 911 outage in April 2014, which resulted in over 11 million Americans.. or about three and half percent of the population of the United States, being at risk of not being able to reach emergency help through 911.
 
-I found the report interesting in the parallels to the (less life-threatening) issues we routinely deal with at [Prophecy Networks][3]. I&#8217;ve detailed some recommendations to mitigate some of these issues below, and then have commented on the pertinent sections in the report
+I found the report interesting in the parallels to the (less life-threatening) issues we routinely deal with at [Prophecy Networks][3]. I've detailed some recommendations to mitigate some of these issues below, and then have commented on the pertinent sections in the report
 
 Within [Prophecy][3], we:
 
   * Implement [automated monitoring][4], including severity and escalation levels, so that unhandled alerts are escalated to backup engineers and management based on severity and SLA response time 
-  * Send escalation alerts at different levels via independent messaging platforms (e.g. [SMS][4] and [Pushover][5]), to guard against a single &#8220;silent&#8221; failure
+  * Send escalation alerts at different levels via independent messaging platforms (e.g. [SMS][4] and [Pushover][5]), to guard against a single "silent" failure
   * Run multiple monitoring platforms, each monitoring the other, so that a failure of the monitoring platform itself creates alerts
-  * Where possible, monitor intended behaviour (&#8220;[are emails delivered?][6]&#8220;) rather than specific processes (&#8220;is sendmail running?&#8221;) to avoid the trap of only monitoring predicted failures.
+  * Where possible, monitor intended behaviour ("[are emails delivered?][6]") rather than specific processes ("is sendmail running?") to avoid the trap of only monitoring predicted failures.
   * Use a simple set of [mailing lists][7] to quickly delivery status updates via email and txt to staff, customers and partners during an outage
 
 On to my interpretation of the FCC investigative report&#8230;
@@ -43,7 +43,7 @@ It ultimately took manual (human) communications to finally alert staff to the s
 
 > It appears that Intrado was not able to fully understand the significance and breadth of the problem until around 2:00 a.m. PDT, when CenturyLin informed it that CenturyLink’s PSAP customers in the State of Washington were suffering an outage.
 
-The fault was a &#8220;silent failure&#8221;:
+The fault was a "silent failure":
 
 > NORS reports showed that Intrado had redundant capability to reroute 911 traffic through its Miami ECMC, but the Englewood outage was a “silent failure” that, due to a “low-level fault” designation, did not trigger automatic rerouting.
 
@@ -79,11 +79,11 @@ Automating redundancy and graceful failover where this does not further increase
 
 > Implementing a change to automatically reroute an individual call to another ECMC if for some reason that call cannot be processed at its primary ECMC. This change permits 911 calls in the NG911 transition architecture to route to an available server as is commonly found in a distributed Internet service.
 
-Sometimes the efforts taken to reduce costs (in this case, consolidation, but there&#8217;s an obvious parallel to virtualization of server and network infrastructure) can result in unexpected fragility of the system
+Sometimes the efforts taken to reduce costs (in this case, consolidation, but there's an obvious parallel to virtualization of server and network infrastructure) can result in unexpected fragility of the system
 
 > With the transition to NG911 system implementation, new entrants have already begun to enter the market for the provision of key functional services, and the entry of specialized providers has the potential to promote innovation. Sometimes “innovation” leads to lower operating costs through efficiencies made possible by consolidating operations into fewer facilities. However, such consolidation can greatly multiply the impact from a single or dual point of failure.
 
-In summary, building too fast or or too &#8220;clever&#8221; can result in catastrophic failure of complex systems:
+In summary, building too fast or or too "clever" can result in catastrophic failure of complex systems:
 
 > The April 2014 multistate outage was far more than a simple software error on an otherwise uneventful spring evening in Englewood, Colorado. It was a vivid example of the vulnerabilities that IP-supported architectures may present, without sufficient network safeguards and clear lines of accountability. The issues raised in the outage go to the heart of providing reliable 911 service.
 

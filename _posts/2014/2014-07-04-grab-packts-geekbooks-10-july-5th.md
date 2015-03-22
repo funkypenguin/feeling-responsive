@@ -1,18 +1,18 @@
 ---
-title: 'Grab any of Packt&#8217;s geekbooks for $10 until July 5th'
+title: 'Grab any of Packts geekbooks for $10 until July 5th'
 author: David
 layout: page
 permalink: /note/grab-packts-geekbooks-10-july-5th/
 categories:
-  - Note
+  - note
 tags:
   - ebook
   - packt
   - special
 ---
-The folks at [Packt Publishing][1] asked me to mention that they&#8217;re having [10 years $10][1] special, to celebrate their 10-year anniversary. Their entire range of books (geared towards niche geek topics) are available for $10 each. This is a good opportunity to brush up on some rusty areas, or establish a new skillset.
+The folks at [Packt Publishing][1] asked me to mention that they're having [10 years $10][1] special, to celebrate their 10-year anniversary. Their entire range of books (geared towards niche geek topics) are available for $10 each. This is a good opportunity to brush up on some rusty areas, or establish a new skillset.
 
-They&#8217;ve offered me 2 ebooks in return for mentioning this, but even if they hadn&#8217;t, I&#8217;d still endorse the opportunity to upskill yourself at roughly 50% off. I have my eye on the following:
+They've offered me 2 ebooks in return for mentioning this, but even if they hadn't, I'd still endorse the opportunity to upskill yourself at roughly 50% off. I have my eye on the following:
 
   * [phpList 2 Email Campaign Manager 2][2] (a bit outdated now that phpList 3 is released and reskinned, but the underlying concepts are still useful)
   * [Network Analysis using Wireshark Cookbook][3]

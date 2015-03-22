@@ -43,7 +43,7 @@ Then restart the mysql server (we have changed permissions, must reload), by run
 
 ### router-users.xml
 
-This file is where the router gets its component and secret information from for component authentication. We want to tell it about a component called &#8220;bandersnatch&#8221;, whose secret is also &#8220;bandersnatch&#8221;&#8230;
+This file is where the router gets its component and secret information from for component authentication. We want to tell it about a component called "bandersnatch", whose secret is also "bandersnatch"...
 
 Add the following lines:
 

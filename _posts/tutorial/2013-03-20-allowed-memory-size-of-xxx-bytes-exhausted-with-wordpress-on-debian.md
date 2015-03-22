@@ -9,7 +9,7 @@ tags:
   - debian
   - wordpress
 ---
-My Debian Squeeze host started having trouble performing WordPress 3.5 core or plugin updates &#8211; in the error logs, I&#8217;d see messages like:
+My Debian Squeeze host started having trouble performing WordPress 3.5 core or plugin updates &#8211; in the error logs, I'd see messages like:
 
 > Allowed memory size of xxx bytes exhausted
 

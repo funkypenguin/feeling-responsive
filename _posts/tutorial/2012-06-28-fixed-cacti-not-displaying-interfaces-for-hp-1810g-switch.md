@@ -12,7 +12,7 @@ tags:
   - monitoring
   - snmp
 ---
-While implementing a new network for a customer, we took an existing HP 1810G 48-port switch under management. As per normal, we setup monitoring (Icinga) and graphing (Cacti), but while the switch responded to Cacti sysname polls (leading us to believe it was happy), it didn&#8217;t return any interface details, so we weren&#8217;t able to graph anything.
+While implementing a new network for a customer, we took an existing HP 1810G 48-port switch under management. As per normal, we setup monitoring (Icinga) and graphing (Cacti), but while the switch responded to Cacti sysname polls (leading us to believe it was happy), it didn't return any interface details, so we weren't able to graph anything.
 
 After chasing a few red herrings, I tried changing the SNMP version from 2 to 1 in the Cacti device config, and after a refresh, I was able to graph all my interfaces again <img src="https://www.funkypenguin.co.nz/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
 

@@ -10,7 +10,7 @@ tags:
 ---
 I stumbled across this useful hint on the <a title="Things forums" href="https://culturedcode.com/forums/read.php?8,57893" target="_blank">Things forums</a> which adds a feature to my workflow which I felt important enough to record here.
 
-Most of my digital inputs come via email. It&#8217;s hugely useful to be able to (with a single keystroke) forward an email to my Evernote inbox, but being unable to do the same to send a task to Things was creating some friction.
+Most of my digital inputs come via email. It's hugely useful to be able to (with a single keystroke) forward an email to my Evernote inbox, but being unable to do the same to send a task to Things was creating some friction.
 
 The easy answer -
 

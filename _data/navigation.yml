@@ -11,12 +11,13 @@
   - title: "Dockerized HTPC Suite"
     url: "/project/docker-htpc-suite/"
 
-- title: "How-To"
-  url: "/how-to/"
+- title: "How Tos"
+  url: "/howtos/"
   side: left
-  dropdown:
-  - title: "Monitor OSX with Icinga"
-    url: "/design/header-full-width-image/"
+
+- title: "Notes"
+  url: "/notes/"
+  side: left
 
 - title: Blog
   url: "/blog/"
