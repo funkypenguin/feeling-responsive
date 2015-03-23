@@ -1,6 +1,7 @@
 ---
 title: Watching video is harder than reading
 author: David
+header: no
 layout: page
 permalink: /opinion/watching-video-harder-reading/
 categories:

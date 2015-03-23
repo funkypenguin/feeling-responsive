@@ -2,6 +2,7 @@
 title: Making postie work with cron jobs, fails with wp-config.php outside of web root
 author: David
 layout: page
+header: no
 permalink: /note/making-postie-work-with-cron-jobs-fails-with-wp-config-php-outside-of-web-root/
 categories:
   - note

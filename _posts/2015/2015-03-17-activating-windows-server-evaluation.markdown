@@ -3,6 +3,7 @@ layout: page
 title: "Activating Windows Server Evaluation"
 categories:
   - note
+header: no
 tags:
   - windows
 date: "2015-03-17"

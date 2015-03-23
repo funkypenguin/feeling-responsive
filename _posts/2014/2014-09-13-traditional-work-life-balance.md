@@ -3,6 +3,7 @@ title: In defense of traditional work-life balance
 author: David
 layout: page
 permalink: /opinion/traditional-work-life-balance/
+header: no
 categories:
   - opinion
 tags:

@@ -3,6 +3,7 @@ title: Confirmation Bias
 author: David
 layout: page
 permalink: /opinion/confirmation-bias/
+header: no
 categories:
   - opinion
 tags:

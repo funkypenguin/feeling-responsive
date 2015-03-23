@@ -1,6 +1,7 @@
 ---
 title: "Why financial incentives aren't the optimal way to motivate your knowledge workers"
 layout: page
+header: no
 permalink: /opinion/why-financial-incentives-arent-the-optimal-way-to-motivate-your-knowledge-workers/
 categories:
   - opinion

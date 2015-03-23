@@ -2,6 +2,7 @@
 title: Buy a watch, save your brain
 layout: page
 permalink: /opinion/buy-a-watch-save-your-brain/
+header: no
 categories:
   - opinion
 ---

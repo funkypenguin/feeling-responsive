@@ -118,9 +118,9 @@ defaults:
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_author:             "https://plus.google.com/u/0/118311555303973066167"
-google_site_verification:  "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
-bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
+google_author:             "https://plus.google.com/u/0/112292322115066377987"
+#google_site_verification:  "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
+#bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 # alexa_verify_id:         ""
 
 
@@ -151,8 +151,8 @@ msapplication_tilecolor:         "#334D5C"                                    # 
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
 og_locale:                          "en_EN"
 og_type:                            "website"
-og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
-og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+og_title:                           "Funky Penguin - Upgrading The World"
+og_description:                     "Upgrading the world through the skilled application of technology"
 # og_url:                           ""
 # og_site_name:                     ""
 
@@ -176,7 +176,7 @@ og_description:                     "Feeling Responsive is built on the fabulous
 #
 # used in _includes/comments.html
 
-disqus_shortname: funkypenguin
+disqus_shortname: funkypenguinnz
 
 # I think this will give me redirection support
 gems:
@@ -202,4 +202,4 @@ sass:
 #
 # used in _includes/footer_scripts.html
 
-google_analytics_tracking_id: UA-60112281-1
+google_analytics_tracking_id: UA-139253-8

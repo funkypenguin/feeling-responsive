@@ -3,6 +3,7 @@ title: The illusion of speed
 author: David
 layout: page
 permalink: /opinion/the-illusion-of-speed/
+header: no
 categories:
   - opinion
 tags:

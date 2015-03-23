@@ -3,6 +3,7 @@ title: Restart VRRP on JUNOS to fix master/master issues
 author: David
 layout: page
 permalink: /note/trouble-vrrp-mastership-2-junos-devices-restarting-vrrp-can-fix/
+header: no
 categories:
   - note
 tags:

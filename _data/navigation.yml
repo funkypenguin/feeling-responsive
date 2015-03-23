@@ -2,14 +2,18 @@
   url: "/"
   side: left
 
+- title: "Books"
+  url: "/books/"
+  side: left
+  dropdown:
+  - title: "PHPList 2 Email Campaign Manager"
+    url: "/book/phplist-2-email-campaign-manager/"
+  - title: "Upgrade Your Life, Non-Geek"
+    url: "/book/upgrade-your-life-non-geek/"
+
 - title: "Projects"
   url: "/project/"
   side: left
-  dropdown:
-  - title: "Bandersnatch"
-    url: "/project/bandersnatch/"
-  - title: "Dockerized HTPC Suite"
-    url: "/project/docker-htpc-suite/"
 
 - title: "How Tos"
   url: "/howtos/"

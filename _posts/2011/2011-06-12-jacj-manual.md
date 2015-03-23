@@ -3,8 +3,7 @@ title: JACJ Manual
 author: David
 layout: page
 permalink: /project/jacj-manual/
-aktt_notify_twitter:
-  - no
+header: no
 categories:
   - Projects
 ---

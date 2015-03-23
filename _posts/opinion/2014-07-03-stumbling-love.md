@@ -1,6 +1,7 @@
 ---
 title: Stumbling into what you love
 permalink: /opinion/stumbling-love/
+header: no
 categories:
   - opinion
 tags:
