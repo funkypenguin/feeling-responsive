@@ -4,12 +4,13 @@ show_meta: false
 subheadline: "Published and Upcoming"
 title: "Books"
 description: "The following books are published or in-flight"
-image:
-   header: "unsplash_6_bus_header.jpg"
-   thumb: "unsplash_6_bus_thumb.jpg"
+header:
+   image_fullwidth: "header_books_large.jpg"
+   thumb: "header_books_thumb.jpg"
+   caption: Old Books
+   caption_url: http://www.flickr.com/photos/9458417@N03/13190693773
 permalink: "/books/"
 ---
-
 The following lists published or upcoming books I'm working on:
 
 <div>

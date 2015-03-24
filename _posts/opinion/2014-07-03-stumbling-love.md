@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Stumbling into what you love
 permalink: /opinion/stumbling-love/
 header: no
@@ -7,10 +8,13 @@ categories:
 tags:
   - advice
   - vocation
-iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/VOU6zoRI3BU' frameborder='0' allowfullscreen></iframe>"
 
 ---
 Thanks to the [Farnam Street Blog][1] for recommending this [commencement speech][2] by [Daniel Pink][3].
+
+<div class="flex-video">
+<iframe width='970' height='546' src='//www.youtube.com/embed/VOU6zoRI3BU' frameborder='0' allowfullscreen></iframe>
+</div>
 
 To paraphrase his message, you can't be prepared enough for life before living it. You may have an idea of the direction you want to take, but you should be open to stumbling into what you love.
 
