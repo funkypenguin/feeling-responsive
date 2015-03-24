@@ -6,21 +6,16 @@
   url: "/books/"
   side: left
   dropdown:
+  - title: "Upgrade Your Life, Non-Geek (in progress)"
+    url: "/book/upgrade-your-life-non-geek/"
   - title: "PHPList 2 Email Campaign Manager"
     url: "/book/phplist-2-email-campaign-manager/"
-  - title: "Upgrade Your Life, Non-Geek"
-    url: "/book/upgrade-your-life-non-geek/"
+  - title: "JAJC Manual"
+    url: "/book/jajc-manual/"
+
 
 - title: "Projects"
-  url: "/project/"
-  side: left
-
-- title: "How Tos"
-  url: "/howtos/"
-  side: left
-
-- title: "Notes"
-  url: "/notes/"
+  url: "/projects/"
   side: left
 
 - title: Blog

@@ -17,6 +17,7 @@ category: book
 </div><!-- /.medium-4.columns -->
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
+<iframe width="160" height="400" src="https://leanpub.com/upgrading-your-life-non-geek/embed" frameborder="0" allowtransparency="true"></iframe>
 
 An in-progress publication through leanpub, [Upgrade Your Life, Non-Geek][1] walks the average, non-technical reader through the current technical big issues, with the goal of improving their life through the skilled application of technology.
 
