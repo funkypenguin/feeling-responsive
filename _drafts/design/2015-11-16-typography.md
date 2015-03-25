@@ -1,5 +1,4 @@
 ---
-layout: page-fullwidth
 title: "Wonderful Typography"
 subheadline: "Reading Experience"
 meta_teaser: "Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
@@ -7,7 +6,7 @@ teaser: "<em>Feeling Responsive</em> uses <a href='https://www.google.com/fonts/
 header: no
 image:
     thumb:  homepage_typography_thumb.jpg
-    homepage: homepage_typography.jpg
+    haomepage: homepage_typography.jpg
     caption: Image by Antonio
     caption_url: "http://www.aisleone.net/"
 categories:
@@ -29,7 +28,7 @@ categories:
 
 ## Lato – A Sans Serif Typeface Family
 
-[Lato][4] schmato is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic. »Lato« means »Summer« in Polish. In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google. 
+[Lato][4] schmato is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic. »Lato« means »Summer« in Polish. In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google.
 
 > <span class="teaser">I do not think of type as something that should be readable. It should be beautiful.</span><cite>[Ed Benguiat][3]</cite>
 

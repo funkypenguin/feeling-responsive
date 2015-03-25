@@ -7,6 +7,7 @@ header: no
 tags:
   - windows
 date: "2015-03-17"
+teaser: No, you can't just "activate" an Evaluation version
 ---
 Internally, our build process for Windows Servers (2012r2 in this case) is to build the VM on the Evaluation media available from Microsoft, and then apply the licence during the grace period.
 

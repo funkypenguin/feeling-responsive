@@ -6,8 +6,8 @@
   url: "/books/"
   side: left
   dropdown:
-  - title: "Upgrade Your Life, Non-Geek (in progress)"
-    url: "/book/upgrade-your-life-non-geek/"
+#  - title: "Upgrade Your Life, Non-Geek (in progress)"
+#    url: "/book/upgrade-your-life-non-geek/"
   - title: "PHPList 2 Email Campaign Manager"
     url: "/book/phplist-2-email-campaign-manager/"
   - title: "JAJC Manual"

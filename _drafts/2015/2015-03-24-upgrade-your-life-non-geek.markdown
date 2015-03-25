@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 title: "Upgrade Your Life, Non-Geek"
-subheadline: A guide to leveraging technology, for normal people
+subheadline: Book
 teaser: Does grandma ask you to explain smartphones, blogs, and twitter? Buy her this book.
 date: "2015-03-24 05:28"
 category: book

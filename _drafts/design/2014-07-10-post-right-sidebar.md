@@ -9,6 +9,7 @@ tags:
     - post format
 categories:
     - design
+header: bob.jpg
 image:
     thumb: "unsplash_2_thumb.jpg"
     title: "unsplash_2.jpg"
