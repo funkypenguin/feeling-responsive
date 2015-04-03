@@ -21,11 +21,11 @@ For this year's April Fools Day, I went with the [classic][1] "turn the internet
   <figure class='gallery-item'>
 
   <div class='gallery-icon landscape'>
-    <a href='https://www.funkypenguin.co.nz/wp-content/uploads/2011/04/google_in_klingon.png'><img width="150" height="150" src="https://www.funkypenguin.co.nz/wp-content/uploads/2011/04/google_in_klingon-150x150.png" class="attachment-thumbnail" alt="Set Google&#039;s language to &quot;Klingon&quot;" aria-describedby="gallery-1-1127" /></a>
+    <a href='/images/google_in_klingon.png'><img width="150" height="150" src="/images/google_in_klingon-150x150.png" class="attachment-thumbnail" alt="Set Google&#039;s language to &quot;Klingon&quot;" aria-describedby="gallery-1-1127" /></a>
   </div><figcaption class='wp-caption-text gallery-caption' id='gallery-1-1127'> Set Google's language to "Klingon" </figcaption></figure><figure class='gallery-item'>
 
   <div class='gallery-icon landscape'>
-    <a href='https://www.funkypenguin.co.nz/wp-content/uploads/2011/04/images_upside_down.png'><img width="150" height="150" src="https://www.funkypenguin.co.nz/wp-content/uploads/2011/04/images_upside_down-150x150.png" class="attachment-thumbnail" alt="Turn random (but not all) images upside-down" aria-describedby="gallery-1-1128" /></a>
+    <a href='/images/images_upside_down.png'><img width="150" height="150" src="/images/images_upside_down-150x150.png" class="attachment-thumbnail" alt="Turn random (but not all) images upside-down" aria-describedby="gallery-1-1128" /></a>
   </div><figcaption class='wp-caption-text gallery-caption' id='gallery-1-1128'> Turn random (but not all) images upside-down </figcaption></figure>
 </div>
 
