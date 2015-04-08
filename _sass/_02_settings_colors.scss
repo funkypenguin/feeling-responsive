@@ -1,5 +1,18 @@
+/* TOC – Color Variables
 
-/* Color Variables
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+
+
+/* Basics
 ------------------------------------------------------------------- */
 
 $text-color:       	#111;
@@ -8,9 +21,8 @@ $body-bg: 			#fdfdfd;
 
 
 
-/* Corporate Identity Colorpalette/Color Scheme
+/* Corporate Identity Colorpalette
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
-
 ------------------------------------------------------------------- */
 
 $ci-1: #334D5C;		// dark turquoise
@@ -30,7 +42,7 @@ $secondary-color: $ci-6;
 $alert-color: $ci-5;
 $success-color: $ci-6;
 $warning-color: $ci-4;
-$info-color: $ci-2;
+$info-color: $ci-1;
 
 
 
@@ -70,14 +82,13 @@ $topbar-link-color-active-hover: #000;
 
 $topbar-dropdown-label-color: $ci-2;
 $topbar-dropdown-link-bg-hover: $ci-6;
-$topbar-dropdown-bg: $ci-6; // Hintergrund kleine Navigation
 
-$topbar-link-bg-active: $ci-6; // Aktiver ausgewählter Menupunkt
+$topbar-link-bg-active: $ci-6; // Active Navigation Link
 $topbar-link-bg-hover: $ci-6;
 $topbar-link-bg-active-hover: $ci-2;
 
 
-$topbar-dropdown-bg: $ci-6; // Hintergrund kleine Navigation
+$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
 $topbar-dropdown-link-color: #000;
 $topbar-dropdown-link-bg: $ci-2;
 
