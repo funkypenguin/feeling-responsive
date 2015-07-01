@@ -2,6 +2,9 @@
 layout: page
 title: "openssl-1.0.1e-30 broke sendmail, mysql on rhel/centos 5/6"
 date: "2015-06-09 13:57"
+redirect_from: /openssl-101e-30-broke-sendmail-mysql-on-rhelcentos-56/
+categories:
+  - note
 ---
 After being abruptly awakened on Saturday morning at 4am (nightly cron job for yum updates), we found that an upstream RHEL/CentOS [update had changed the minimum acceptable length of DH keys to 768 bits][2].
 
