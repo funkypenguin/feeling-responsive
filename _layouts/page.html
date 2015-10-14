@@ -40,11 +40,11 @@ header: no
 			{{ content }}
 			</span>
 
+			{% include twitter_plug.html %}
+
 			{% if page.show_meta == true %}
 			{% include meta_information.html %}
 			{% endif %}
-
-			{% include twitter_plug.html %}
 
 			{% if page.comments == true %}
 			{% include comments.html %}

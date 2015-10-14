@@ -5,7 +5,7 @@ date: '2015-10-14 23:20'
 categories:
   - howto
 tags:
-  - apache
+  - bacula
 teaser: De-duplicating common files across your bacula backups
 ---
 
