@@ -25,7 +25,7 @@ My friend's SRP527W had been auto-provisioned by his previous DSL-VOIP provider,
 
 Before we could use the 4th Ethernet port as a WAN port, it was necessary to disable the DSL interface. This is done under __Administration__ -> __Switch Setting__, and will reset and reboot the device.
 
-![Disable DSL interafce on SRP527W](/images/srp527w_disable_dsl.png)
+![Disable DSL interface on SRP527W](/images/srp527w_disable_dsl.png)
 
 ## Step 2 : Configure WAN interface
 
