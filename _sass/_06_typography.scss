@@ -1,6 +1,6 @@
-/* TOC – Typography 
+/* TOC – Typography
 
-Check typography variables › _3_typography_settings.scss
+Check typography variables › _3_typography_settings.scss
 
 - Links
 - Customize Foundation Typography
@@ -47,7 +47,7 @@ a:active {
 /* Customize Foundation Typography
 ------------------------------------------------------------------- */
 
-p { 
+p {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
@@ -234,24 +234,26 @@ blockquote {
     margin: 0 30px 30px 30px;
     color: #4b4b4d
 }
- 
+
     blockquote p {font-style: italic; color: $grey-10; }
- 
+
     blockquote:before {
         display:block;content:"\00BB";
         font-size:80px;
+        line-height: 0;
         position:absolute;
         left:-25px;
-        top:-40px;
+        top: auto;
         color:#4b4b4d
     }
     blockquote:after {
         display:block;
         content:"\00AB";
         font-size:80px;
+        line-height: 0;
         position:absolute;
         right:-10px;
-        bottom:-40px;
+        bottom: 20px;
         color:#4b4b4d;
     }
     blockquote cite:before {
@@ -324,12 +326,25 @@ mark {
 /* Footnotes
 ------------------------------------------------------------------- */
 
+.footnotes:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 60px;
+    margin-top: -10px;
+    border-bottom: 1px solid $grey-2;
+}
 .footnotes {
     margin-top: 60px;
 }
-.footnotes ol { 
+.footnotes ol {
     font-size: $font-size-small;
 }
+.footnotes p {
+    font-size: inherit;
+    margin-bottom: 0;
+}
+
 
 
 
@@ -405,6 +420,7 @@ mark {
 .icon-video:before,
 .icon-vimeo:before,
 .icon-warning:before,
+.icon-xing:before,
 .icon-youtube:before {
   display: inline-block;
 font-family: "iconfont";
@@ -472,4 +488,5 @@ font-smoothing: antialiased;
 .icon-video:before { content: "\f12f"; }
 .icon-vimeo:before { content: "\f130"; }
 .icon-warning:before { content: "\f131"; }
+.icon-xing:before { content: "\f135"; }
 .icon-youtube:before { content: "\f132"; }

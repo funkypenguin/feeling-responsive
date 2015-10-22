@@ -1,4 +1,4 @@
-# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
+# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
 #      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
@@ -18,21 +18,24 @@ slogan: "Upgrading The World"
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: "An attempt to upgrade the world through the skilled application of technology"
 
+# Main author of the website
+# See > authors.yml
+author: phlow
 
-# This URL is the main adresse. Don't include a slash at the end.
+# This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: "https://www.funkypenguin.co.nz"
 baseurl: ""
 
-# This is for the editing function in _/includes/improve_content.html
+# This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/funkypenguin/funkypenguin.github.io/edit/gh-pages
 
 # This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash.
+# things easier to link to images in posts and templates. It needs a slash at the end.
 #
-# Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: "https://www.funkypenguin.co.nz/images"
 
@@ -45,7 +48,7 @@ logo: "logo.png"
 paginate: 5
 
 
-# Pagination path › Important for blog page in /blog/ to work
+# Pagination path › Important for blog page in /blog/ to work
 paginate_path: "blog/page:num"
 
 
@@ -53,20 +56,31 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
-excerpt_separator: "\n\n"
-exclude: []
+excerpt_separator: "<!--more-->"
 include: ['.htaccess']
+# Exclude these files from your production _site
+exclude:
+    - .sass-cache
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - INSTALL.md
 
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
 
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+
+# Used › default.html front-matter and compress.html
+# Options › http://jch.penibelst.de
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
 
 
 #
@@ -84,8 +98,8 @@ defaults:
       path: "" 				# an empty string here means all files in the project
       type: "pages"
     values:
-      show_meta: true 	# Show metadata beneath all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      show_meta: false 	# Hide metadata for all pages
+      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "your_author_name"
       breadcrumb: false
@@ -129,7 +143,7 @@ google_author:             "https://plus.google.com/u/0/112292322115066377987"
 #       ______            _
 #      / ____/___ __   __(_)________  ____  _____
 #     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
-#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  ) 
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
@@ -179,7 +193,7 @@ og_description:                     "Upgrading the world through the skilled app
 #    /_____/_/____/\__, /\__,_/____/
 #                    /_/
 #
-# used in _includes/comments.html
+# used in _includes/comments
 
 disqus_shortname: funkypenguinnz
 
@@ -205,6 +219,9 @@ sass:
 #   /_/  |_/_/ /_/\__,_/_/\__, /\__/_/\___/____/      https://www.google.com/analytics/
 #                        /____/
 #
-# used in _includes/footer_scripts.html
+# used in _includes/footer_scripts
+
+# google_analytics_tracking_id:
+
 
 google_analytics_tracking_id: UA-139253-8

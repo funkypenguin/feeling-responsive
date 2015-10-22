@@ -22,10 +22,15 @@
   url: "/blog/"
   side: left
   dropdown:
-  - title: Blog
-    url: "/blog/"
   - title: "Blog Archive"
     url: "/blog/archive/"
+
+#
+#   Navigation to the right › side: right
+#
+- title: "Info"
+  url: "/info/"
+  side: right
 
 - title: "Search"
   url: "/search/"
