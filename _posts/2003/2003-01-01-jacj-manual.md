@@ -4,7 +4,7 @@ author: David
 layout: page
 subheadline: The official user manual for a popular Jabber client authored with  2003-cutting-edge DocBook XML
 teaser: In preparing an author bio (harder than it sounds!) for a PHPList book I've been authoring, I dug up this old copy of a JAJC (a win32 jabber client) manual I wrote in 2003, using Docbook XML.
-permalink: /book/jacj-manual/
+permalink: /book/jajc-manual/
 header: no
 categories:
   - book

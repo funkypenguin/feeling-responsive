@@ -28,8 +28,8 @@
 #
 #   Navigation to the right › side: right
 #
-- title: "Info"
-  url: "/info/"
+- title: "About"
+  url: "/about/"
   side: right
 
 - title: "Search"

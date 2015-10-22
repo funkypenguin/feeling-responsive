@@ -4,6 +4,7 @@ title: "phpList 2 Email Campaign Manager"
 subheadline: A comprehensive guide to PHPList v2
 teaser: Tired of an e-mail BCC list that scrolls off the page, or fiddly and hard-to-manage bulk mailing systems? You need phpList – a high-powered, robust, feature-packed mailing system that will get out of your way and get the job done!
 date: "2011-03-24"
+permalink: /book/phplist-2-email-campaign-manager/
 category: book
 
 ---
