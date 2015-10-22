@@ -19,7 +19,7 @@ header: no
 <div class="row t60">
     {% if page.widget-1.title %}
     <div class="medium-4 columns">
-        <a href="{{ page.widget-1.url }}">{% if page.widget-1.image %}<img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
+        <a href="{{ page.widget-1.url }}">{% if page.widget-1.image %}<img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-1.title }}</h2>
         <p>{{ page.widget-1.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-1.url }}">{{ site.data.language.more }}</a></p>
@@ -29,7 +29,7 @@ header: no
 
     {% if page.widget-2.title %}
     <div class="medium-4 columns">
-        <a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
+        <a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-2.title }}</h2>
         <p>{{ page.widget-2.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-2.url }}">{{ site.data.language.more }}</a></p>
@@ -51,7 +51,7 @@ header: no
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
             <p>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
             </p>
 
             {% if post.image.caption_url && post.image.caption %}
@@ -59,7 +59,7 @@ header: no
                 <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
             </p>
             {% endif %}
-            {% else post.image.homepage == NULL %}
+            {% elsif post.image.homepage == NULL %}
             <h2>{{ site.data.language.new_blog_entries }}</h2>
             {% endif %}
             {% endfor %}
@@ -72,8 +72,8 @@ header: no
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% elsif post.categories %}{{ post.categories | join: ' · ' | upcase }}</p>{% endif %}
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
-                {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+                {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+                <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}
         </div><!-- /.medium-5.columns -->
@@ -81,7 +81,7 @@ header: no
 
         <div class="medium-6 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
-            {% include list-posts.html entries='10' offset='2' %}
+            {% include list-posts entries='10' offset='2' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 {% endunless %}
