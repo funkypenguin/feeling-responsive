@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Deduplication with bacula using base jobs
 date: '2015-10-14 23:20'
 categories:
