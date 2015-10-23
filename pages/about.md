@@ -5,6 +5,7 @@ show_meta: false
 permalink: "/about/"
 header:
     image_fullwidth: "header_drop.jpg"
+tawkto: true
 ---
 
 Hi, I'm [David](/contact). When I was a kid, I wanted to to grow up to be an inventor. In many ways I have. I've spent 20+ years working with IT, and I'm specifically interested in networking, systems, open-source, and technical documentation. My current role is Infrastructure Manager at [Prophecy Networks](http://www.prophecy.net.nz) in New Zealand.
