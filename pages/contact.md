@@ -5,6 +5,7 @@ show_meta: false
 subheadline: "Get in touch"
 description: "Get in touch with me? Use the contact form."
 permalink: "/contact/"
+tawkto: true
 ---
 Contact me by:
 
