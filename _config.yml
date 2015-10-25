@@ -103,15 +103,16 @@ defaults:
       comments: false
       author: "your_author_name"
       breadcrumb: false
+      header: no
   -
     scope:
       path: ""
       type: "posts"
     values:
-      header: no
       show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: true
+      header: no
       author: "your_author_name"
 
 

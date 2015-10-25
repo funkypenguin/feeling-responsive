@@ -4,7 +4,7 @@ show_meta: false
 subheadline: "Published and Upcoming"
 title: "Books"
 description: "The following books are published or in-flight"
-header:
+noheader:
    image_fullwidth: "header_books_large.jpg"
    thumb: "header_books_thumb.jpg"
    caption: Old Books

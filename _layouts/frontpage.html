@@ -1,7 +1,6 @@
 ---
 layout: default
 format: blog-index
-header: no
 ---
 <div id="header-home">
     <div class="row">
@@ -9,7 +8,6 @@ header: no
         </div><!-- /.medium-4.columns -->
     </div><!-- /.row -->
 </div><!-- /#header-home -->
-
 
 {% comment %}
 *
@@ -46,7 +44,7 @@ header: no
 
 {% unless site.posts == empty %}
     <div class="row t30 b20 homepage">
-        <div class="small-12 columns">
+        <div class="small-6 columns">
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
             <p>
@@ -62,7 +60,10 @@ header: no
             <h2>{{ site.data.language.new_blog_entries }}</h2>
             {% endif %}
             {% endfor %}
-        </div><!-- /.small-12.columns -->
+        </div><!-- /.small-6.columns -->
+        <div class="small-6 columns">
+            <h2>{{ site.data.language.more_articles }}</h2>
+        </div><!-- /.small-6.columns -->
     </div><!-- /.row -->
 
     <div class="row">
@@ -79,7 +80,6 @@ header: no
 
 
         <div class="medium-6 columns">
-            <p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts entries='10' offset='2' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
