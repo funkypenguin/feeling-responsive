@@ -3,8 +3,6 @@ layout: page
 title: "About"
 show_meta: false
 permalink: "/about/"
-header:
-    image_fullwidth: "header_drop.jpg"
 tawkto: true
 ---
 
