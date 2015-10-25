@@ -26,7 +26,6 @@ header: no
     </div><!-- /.medium-4.columns -->
     {% endif %}
 
-
     {% if page.widget-2.title %}
     <div class="medium-4 columns">
         <a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
@@ -69,11 +68,11 @@ header: no
     <div class="row">
         <div class="medium-6 columns">
             {% for post in site.posts limit:2 %}
-            {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% elsif post.categories %}{{ post.categories | join: ' · ' | upcase }}</p>{% endif %}
+            {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% elsif post.categories %}{{ post.categories | join: ' · ' | upcase }}{% endif %}
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-                <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+                 - <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}
         </div><!-- /.medium-5.columns -->

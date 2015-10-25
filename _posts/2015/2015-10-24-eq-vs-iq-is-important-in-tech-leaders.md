@@ -4,13 +4,14 @@ title: "EQ (vs IQ) is important in tech leaders too"
 tags:
 categories: opinion
 teaser: Assholery is not the only path to success
+header:
+  image_fullwidth: "unsplash_bamboo.jpeg"
 ---
 I found it refreshing to [read][0] that ruthless efficiency and perfectionism  is not the only way to captain a tech success. Compare the description of Page and Sundar below.
 
 About Page:
 
 > "He could come off as very harsh," said one person who has had many encounters with Page over the years. "Until you realize it was more that he was completely lacking in EQ. I mean, zero."
-
 
 About Sundar:
 

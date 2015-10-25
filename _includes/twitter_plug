@@ -1,4 +1,5 @@
-<p>If you found this useful, please
+<hr />
+<p align=center>If you found this useful, please
 <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=funkypenguin"
    target="_blank">
   share it</a>
@@ -6,3 +7,4 @@
 <a href="https://twitter.com/funkypenguin">
   follow me on Twitter</a> - I'd love to connect ;)
 </p>
+<hr />
