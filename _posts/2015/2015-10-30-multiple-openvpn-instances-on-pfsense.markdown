@@ -21,7 +21,7 @@ Historically we'd allocated individual VPN client IP ranges to each OpenVPN inst
 
 ## The Solution
 
-Having recently refreshed our OpenVPN platform, we've managed to run multiple OpenVPN server instances using an overlapping VPN address range. Normally this can't be done (because each VPN instance needs a route to send traffic back to clients), but I found a useful workaround at [Thomas Gouverneur's blog](http://thomas.gouverneur.name/2014/02/openvpn-listen-on-tcp-and-udp-with-tun/), which I adapted for FreeBSD.
+Having recently refreshed our OpenVPN platform, we've managed to run multiple OpenVPN server instances using an overlapping VPN address range. Normally this can't be done (because each VPN instance needs a route to send traffic back to clients), but I found a useful workaround at [Thomas Gouverneur's blog](http://thomas.gouverneur.name/2014/02/openvpn-listen-on-tcp-and-udp-with-tun/), which I adapted for FreeBSD (which drives our [pfsense](http://www.pfsense.org) OpenVPN servers).
 
 ## Requirements
 
@@ -43,7 +43,7 @@ To implement, save the gist below, and add the following to '''each''' openVPN s
 learn-address /path/to/learn-address.sh
 ````
 
-## learn-address.sh
+## learn-address.sh (BSD-specific)
 
 Create learn-address.sh as follows:
 <script src="https://gist.github.com/funkypenguin/effb077c7e780b81392b.js"></script>
