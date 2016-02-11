@@ -11,7 +11,7 @@ This is part 1/4, see all the parts below:
 
 1. [Personal Development](/opinion/book-review-reclaiming-conversation-personal-development/)
 2. [Family Development](/opinion/book-review-reclaiming-conversation-family-development/)
-3. [Professional Development](/opinion/book-review-reclaiming-conversation-personal-development/)
+3. [Professional Development](/opinion/book-review-reclaiming-conversation-professional-development/)
 4. [The Illusion of Multitasking Development](/opinion/book-review-reclaiming-conversation-illusion-of-multitasking/)
 
 Some highlights which particularly resonated with me:
