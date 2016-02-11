@@ -200,9 +200,10 @@ og_description:                     "Upgrading the world through the skilled app
 
 disqus_shortname: funkypenguinnz
 
-# I think this will give me redirection support
+# I think this will give me redirection support (and pagination for jekyll 3)
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
 #      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
