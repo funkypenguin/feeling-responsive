@@ -43,7 +43,7 @@ We use CentOS on our systems, so these examples assume default paths etc, but ca
 
 I configured Squid to classify my "victim" as "browser\_firefox" or "browser\_ie", based on their user-agent header. (I also turned on logging of user agent headers so I could tweak this). Then using the "url\_rewrite\_access" directive, I could selectively target my victims. Note that inverse matches (i.e., "!browser_firefox") also work here.
 
-{% highlight apache %}
+{% highlight conf %}
 acl browser_firefox browser Mozilla
 acl browser_ie browser MSIE
 url_rewrite_access allow LOADBALANCER

@@ -13,7 +13,7 @@ I ran into a tricker variation of this requirement today - I needed to redirect 
 
 Since virtualhosts rely on the HTTP "Host:" header, it was necessary to use the following syntax **within** the virtualhost configuration:
 
-{% highlight apache %}
+{% highlight conf %}
 RequestHeader set Host "target.host.whichisvirtual.com"
 ProxyPreserveHost On
 
@@ -24,7 +24,7 @@ ProxyPassReverse / http://target.host.whichisvirtual.com/
 Without setting (and then preserving) the host header, the target server would return a 404, since it wouldn't be able to match the request with a configured virtual host.
 
 As an optional extra, adding :
-{% highlight apache %}
+{% highlight conf %}
 LogLevel debug
 {% endhighlight %}
 

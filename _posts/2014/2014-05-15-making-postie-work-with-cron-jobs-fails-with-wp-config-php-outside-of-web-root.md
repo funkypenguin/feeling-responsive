@@ -24,7 +24,7 @@ Once I moved wp-config.php back into the web root directory, I got happy message
 
 Since I can no longer locate wp-config out of the web-accessible portion of my directory structure, I added the following to .htaccess instead:
 
-{% highlight apache %}
+{% highlight conf %}
 <files wp-config.php>
 order allow,deny
 deny from all
