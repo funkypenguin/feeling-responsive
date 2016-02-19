@@ -51,13 +51,13 @@ A normal job which depends on the base job:
     }
 
 
-And the job definition. Note that this **must** be an "Accurate" job. If you leave out the "Accurate" directive, a base job will not be used.
+A standard "daily" job definition. Note that this **must** be an "Accurate" job. If you leave out the "Accurate" directive, a base job will not be used.
 
     JobDefs {
       Name = "jd-daily"
       Type = Backup
       Level = Incremental
-      Client = <bacula-server-hostname>-fd
+      Client = <bacula-client-hostname>-fd
       FileSet = "fs-linux"
       Schedule = "daily"
       Storage = vchanger
@@ -70,6 +70,26 @@ And the job definition. Note that this **must** be an "Accurate" job. If you lea
       # Required to avoid putting jobs in DB before completion (avoids cancelled jobs in the DB)
       Spool Attributes = yes
     }
+
+A corresponding "base" job definition. It's the same as the jd-daily definition above, except for the Level (base jobs are level Base, obviously), Schedule, and Pool (I like to run my base jobs roughly monthly, and keep their storage away from other jobs) fields. I set Client to the bacula client I want to use to create the base job:
+
+    JobDefs {
+      Name = "jd-base"
+      Type = Backup
+      Level = Base
+      Client = <bacula-client-hostname>-fd
+      FileSet = "fs-linux"
+      Schedule = "base"
+      Storage = vchanger
+      Messages = Daemon
+      Pool = base
+      Priority = 9
+      Max Run Time = 600 minutes
+      # Required for dedupe using base jobs
+      Accurate = yes
+      # Required to avoid putting jobs in DB before completion (avoids cancelled jobs in the DB)
+      Spool Attributes = yes
+}
 
 ## Sample output of a bacula base job
 
