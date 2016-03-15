@@ -25,7 +25,7 @@ format: post
 				<span itemprop="name">
 					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}{% elsif page.categories %}{{ page.categories | join: ' · ' | upcase }}</p>{% endif %}
 					<h1>{{ page.title }}</h1>
-				</span>
+				</div>
 			</header>
 
 
@@ -35,9 +35,9 @@ format: post
 			</p>
 			{% endif %}
 
-			<span itemprop="articleSection">
+			<div itemprop="articleSection">
 			{{ content }}
-			</span>
+			</div>
 
 			{% include twitter_plug %}
 

@@ -44,18 +44,26 @@ urlimg: "https://www.funkypenguin.co.nz/images"
 logo: "logo.png"
 
 
-# Paginates all X entries
-paginate: 5
+#       ____              _             __  _
+#      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
+#     / /_/ / __ `/ __ `/ / __ \/ __ `/ __/ / __ \/ __ \
+#    / ____/ /_/ / /_/ / / / / / /_/ / /_/ / /_/ / / / /
+#   /_/    \__,_/\__, /_/_/ /_/\__,_/\__/_/\____/_/ /_/
+#               /____/
+#
+gems:
+    - jekyll-gist
+    - jekyll-paginate
+paginate: 5                      # Paginates all X entries
+paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
 
-# Pagination path › Important for blog page in /blog/ to work
-paginate_path: "blog/page:num"
 
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
 permalink: /:categories/:title/
-highlighter: rouge
+highlight: rouge
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
@@ -69,7 +77,7 @@ exclude:
 
 
 # The language setting is used in /includes/header.html for html-settings
-language: "en"
+language: 'en'
 
 
 # Used › default.html front-matter and compress.html
@@ -95,8 +103,8 @@ compress_html:
 defaults:
   -
     scope:
-      path: "" 				# an empty string here means all files in the project
-      type: "pages"
+      path: '' 				# an empty string here means all files in the project
+      type: 'pages'
     values:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
@@ -106,8 +114,8 @@ defaults:
       header: no
   -
     scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
       show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
@@ -149,18 +157,18 @@ google_author:             "https://plus.google.com/u/0/112292322115066377987"
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32:                          "favicon-32x32.png"
-touch-icon-192x192:                     "touch-icon-192x192.png"
-apple-touch-icon-180x180-precomposed:   "apple-touch-icon-180x180-precomposed.png"
-apple-touch-icon-152x152-precomposed:   "apple-touch-icon-152x152-precomposed.png"
-apple-touch-icon-144x144-precomposed:   "apple-touch-icon-144x144-precomposed.png"
-apple-touch-icon-120x120-precomposed:   "apple-touch-icon-120x120-precomposed.png"
-apple-touch-icon-114x114-precomposed:   "apple-touch-icon-114x114-precomposed.png"
-apple-touch-icon-76x76-precomposed:     "apple-touch-icon-76x76-precomposed.png"
-apple-touch-icon-72x72-precomposed:     "apple-touch-icon-72x72-precomposed.png"
-apple-touch-icon-precomposed:           "apple-touch-icon-precomposed.png"
-msapplication_tileimage:                "msapplication_tileimage.png"               # Size 144x144
-msapplication_tilecolor:                "#fabb00"
+favicon-32x32:                          'favicon-32x32.png'
+touch-icon-192x192:                     'touch-icon-192x192.png'
+apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
+apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
+apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
+apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
+apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
+apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
+apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
+apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
+msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+msapplication_tilecolor:                '#fabb00'
 
 
 #       ______                __                __
@@ -186,6 +194,10 @@ og_description:                     "Upgrading the world through the skilled app
 #
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
+
+socialmedia:
+    twitter: phlow
+    facebook: phlow.media
 
 
 #        ____  _
