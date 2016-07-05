@@ -1,10 +1,9 @@
 ---
-layout: post
-category: linked
+layout: page
 date: 2016-07-05 18:03:02
-title: "Beware the ‘empathy-washing’ of self-proclaimed caring capitalists"
+title: "Beware the empathy-washing of self-proclaimed caring capitalists"
 subhead: 
-tags: linked, opensource
+tags: opensource
 link: http://www.theguardian.com/commentisfree/2016/jul/02/beware-technology-giants-claiming-compassion-for-refugees-evgeny-morozov
 category: opinion
 ---
