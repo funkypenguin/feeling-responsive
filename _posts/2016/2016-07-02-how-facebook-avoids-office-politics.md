@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How FaceBook avoids office politics"
-tags:
+teaser: "Management is not a promotion"
+category: opinion
 ---
 I just read through # [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics), and noted the following:
 
@@ -15,6 +16,3 @@ Management is not a promotion:
 I like the concept of the "360-degree" review. Having just completed some peer reviews. It occurred to me that it would be useful to apply the same feedback process to managers.
 
 > As for reviewing performance, we have 360-degree reviews twice a year, meaning feedback on a person’s performance comes from all directions on the org chart. All managers are reviewed by their teams, and that feedback goes to the managers’ bosses.
-
-
-
