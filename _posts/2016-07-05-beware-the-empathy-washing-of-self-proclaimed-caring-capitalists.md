@@ -1,11 +1,9 @@
 ---
 layout: page
-date: 2016-07-05 18:03:02
 title: "Beware the empathy-washing of self-proclaimed caring capitalists"
-subhead: 
+subhead:
 tags: opensource
-link: http://www.theguardian.com/commentisfree/2016/jul/02/beware-technology-giants-claiming-compassion-for-refugees-evgeny-morozov
-category: opinion
+categories: opinion
 ---
 Evgeny Morozov warns of the risks of trusting large (for-profit) tech giants for humanitarian relief. His concern centres around the conflict of interests between a for-profit corporation and its humanitarian efforts:
 
@@ -15,7 +13,7 @@ Evgeny Morozov warns of the risks of trusting large (for-profit) tech giants for
 
 > Fleeing from the effects of neoliberal capitalism, all of us are becoming permanent refugees – with technology giants occasionally taking pity on us by offering us free services, identity papers, and an opportunity to make money in the sharing economy. And, soon, there won’t be anywhere to flee.
 
-I don't know anything more about the "Freedom-as-a-service" service from Cisco as described above, but I'd hesitate to permanently put anyone's life or welfare in the hands of a tech company. 
+I don't know anything more about the "Freedom-as-a-service" service from Cisco as described above, but I'd hesitate to permanently put anyone's life or welfare in the hands of a tech company.
 
 But I think tech companies can powerfully contribute to humanitarian efforts in 2 ways:
 
