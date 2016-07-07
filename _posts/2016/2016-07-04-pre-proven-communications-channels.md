@@ -6,11 +6,9 @@ title: The importance of pre-proven communication channels during an emergency
 teaser: Is anybody out there?
 tags:  postmortem
 image:
-  title: /public/images/emergency-communication-channels.jpg
+  title: emergency-communication-channels.jpg
   caption: incident management workflow
 ---
-![](/public/images/emergency-communication-channels.jpg)
-
 In [What Happened: Adobe Creative Cloud Update Bug](https://www.backblaze.com/blog/adobe-creative-cloud-update-bug), I read:
 
 > Side-Note: our lead Mac developer, support team, and I were all working from different locations. The lead Mac developer was working from home, the support team was in the office (some of them were also working remotely) and I was in San Diego at a conference. We used Slack to coordinate and it worked pretty well for a real-time event like this.
