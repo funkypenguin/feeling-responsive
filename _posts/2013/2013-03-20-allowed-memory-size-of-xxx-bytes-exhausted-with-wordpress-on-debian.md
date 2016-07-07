@@ -1,7 +1,7 @@
 ---
 title: Allowed memory size of xxx bytes exhausted with WordPress on Debian
 author: David
-layout: page
+layout: post
 permalink: /note/allowed-memory-size-of-xxx-bytes-exhausted-with-wordpress-on-debian/
 header: no
 categories:

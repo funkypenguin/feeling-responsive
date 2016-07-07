@@ -1,7 +1,7 @@
 ---
 title: Automatically reboot multiple Cisco 79xx phones
 author: David
-layout: page
+layout: post
 header: no
 permalink: /how-to/automatically-reboot-multiple-cisco-79xx-phones/
 redirect_from: /tutorial/automatically-reboot-multiple-cisco-79xx-phones/

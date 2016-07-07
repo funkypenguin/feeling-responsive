@@ -1,7 +1,7 @@
 ---
 title: MacBook Air recommendation for cost-conscious newlyweds
 author: David
-layout: page
+layout: post
 permalink: /opinion/macbook-recommendation-for-cost-conscious-newlyweds/
 header: no
 categories:

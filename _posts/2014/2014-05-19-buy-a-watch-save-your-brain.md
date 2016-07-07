@@ -1,6 +1,6 @@
 ---
 title: Buy a watch, save your brain
-layout: page
+layout: post
 permalink: /opinion/buy-a-watch-save-your-brain/
 header: no
 categories:

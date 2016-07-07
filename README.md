@@ -1,20 +1,8 @@
-<<<<<<< HEAD
 ![](feeling-responsive-barebones-version.jpg)
 
 ## THIS IS THE BARE BONES VERSION OF *Feeling Responsive*
 
 **All unnecessary files (images, posts) miss in this release to give you a quick and fresh start. If you are new to *Feeling Responsive* try the GH-Pages-Version. It teaches you with lots of material how to use this flexible theme.**
-=======
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Phlow&url=https://github.com/Phlow/feeling-responsive&title=Support%20Feeling%20Responsive%20Jekyll%20Theme&language=en_GB&tags=github,jekyll,theme,webdesign&category=software)
-
-
-# Newsletter: Stay in Touch for Future Updates
-
-If you are a webdesigner interested in Jekyll, the static website generator, this little newsletter is for you. I share tutorials, clever code snippets and information about my own Jekyll Themes called [*Feeling Responsive*][7] and [*Simplicity*][8]. Please don't expect weekly emails :)
-
-[![Subscribe to Jekyll Newsletter](https://phlow.github.io/static/tinyletter_subscribe_button.png)](https://tinyletter.com/feeling-responsive)
->>>>>>> upstream/gh-pages
-
 
 [![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
 

@@ -1,7 +1,7 @@
 ---
 title: Copying SSH host private keys between JUNOS devices to when replacing hardware
 author: David
-layout: page
+layout: post
 permalink: /note/copying-ssh-host-private-keys-junos-devices-replacing-hardware/
 header: no
 categories:

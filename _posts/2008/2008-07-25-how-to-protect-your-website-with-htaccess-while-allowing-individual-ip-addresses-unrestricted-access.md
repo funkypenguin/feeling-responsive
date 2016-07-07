@@ -2,7 +2,7 @@
 title: Protect your website with htaccess
 subheadline:  "While allowing individual IP addresses unrestricted access"
 teaser: "While allowing individual IP addresses unrestricted access"
-layout: page
+layout: post
 header: no
 permalink: /how-to/protect-your-website-with-htaccess-while-allowing-individual-ip-addresses-unrestricted-access/
 redirect_from: /tutorial/how-to-protect-your-website-with-htaccess-while-allowing-individual-ip-addresses-unrestricted-access/

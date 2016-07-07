@@ -1,6 +1,6 @@
 ---
 title: "Review of Packt Publishing's ESXi Cookbook"
-layout: page
+layout: post
 permalink: /opinion/review-packt-publishings-esxi-cookbook/
 header: no
 categories:

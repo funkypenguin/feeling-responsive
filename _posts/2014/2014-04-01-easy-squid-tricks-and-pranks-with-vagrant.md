@@ -1,6 +1,6 @@
 ---
 title: Easy squid tricks and pranks with Vagrant
-layout: page
+layout: post
 permalink: /project/easy-squid-tricks-and-pranks-with-vagrant/
 header: no
 categories:

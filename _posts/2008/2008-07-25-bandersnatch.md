@@ -3,7 +3,7 @@ title: 'Bandersnatch - The Jabber Logger'
 author: David
 header: no
 excerpt: Bandersnatch is tool to log Jabber instant messaging traffic, and to generate meaningful usage statistics. Bandersnatch is designed for a corporate intranet environment. It is designed for administrators who wish to monitor the use / abuse of their Jabber servers.
-layout: page
+layout: post
 permalink: /project/bandersnatch/
 categories:
   - project

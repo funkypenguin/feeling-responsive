@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Why I won't post about my kids on social media
 categories: opinion
 tags:
@@ -27,7 +27,7 @@ I know adults who remain ashamed of how their parents embarrassed them as teens,
 
 > Parents can consider, too, the searchability and reach of the format (although those are always evolving). A frustrated tweet about a child who won’t eat her cereal because it’s not in a red bowl is a lot less likely to resurface than a YouTube video of the resulting tantrum
 
-Interesting how "searchability" is a negative in this context. 
+Interesting how "searchability" is a negative in this context.
 
 > ..we have a whole house rule: no sharing images of anyone else without their consent, ever. That trust means I get my candid shots, and he keeps his digital identity, whatever he eventually wants it to be, intact.
 

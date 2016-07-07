@@ -1,7 +1,7 @@
 ---
 title: Carving your own path
 author: David
-layout: page
+layout: post
 header: no
 permalink: /opinion/carving-your-own-path/
 categories:

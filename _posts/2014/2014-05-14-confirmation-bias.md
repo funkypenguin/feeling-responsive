@@ -1,7 +1,7 @@
 ---
 title: Confirmation Bias
 author: David
-layout: page
+layout: post
 permalink: /opinion/confirmation-bias/
 header: no
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Stumbling into what you love
 subheadline: How did I get here?
 teaser: You can't be prepared enough for life before living it

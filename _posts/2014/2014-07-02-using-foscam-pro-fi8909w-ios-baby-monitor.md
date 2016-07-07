@@ -1,7 +1,7 @@
 ---
 title: Using a Foscam Pro and FI8909W as an iOS baby monitor
 author: David
-layout: page
+layout: post
 permalink: /how-to/use-foscam-pro-fi8909w-ios-baby-monitor/
 redirect_from: /tutorial/using-foscam-pro-fi8909w-ios-baby-monitor/
 categories:

@@ -1,7 +1,7 @@
 ---
 title: 'Grab any of Packts geekbooks for $10 until July 5th'
 author: David
-layout: page
+layout: post
 permalink: /note/grab-packts-geekbooks-10-july-5th/
 header: no
 categories:

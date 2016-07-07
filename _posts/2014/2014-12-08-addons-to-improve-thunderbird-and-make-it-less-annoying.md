@@ -1,6 +1,6 @@
 ---
 title: Addons to improve Thunderbird (and make it less annoying)
-layout: page
+layout: post
 redirect_from: /tutorial/addons-to-improve-thunderbird-and-make-it-less-annoying/
 permalink: /how-to/addons-to-improve-thunderbird-and-make-it-less-annoying/
 header: no

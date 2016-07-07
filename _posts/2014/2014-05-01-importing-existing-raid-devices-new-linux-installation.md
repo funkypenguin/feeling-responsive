@@ -1,7 +1,7 @@
 ---
 title: Importing existing RAID devices into new Linux installation
 author: David
-layout: page
+layout: post
 permalink: /note/importing-existing-raid-devices-new-linux-installation/
 header: no
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Solving vsftpd's unsupported record version unknown 48.48 error
 author: David
-layout: page
+layout: post
 permalink: /note/solving-vsftpds-unsupported-record-version-unknown-48-48-error/
 categories:
   - note

@@ -22,7 +22,7 @@ format: post
 				</figure>
 				{% endif %}
 
-				<span itemprop="name">
+				<div itemprop="name">
 					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}{% elsif page.categories %}{{ page.categories | join: ' · ' | upcase }}</p>{% endif %}
 					<h1>{{ page.title }}</h1>
 				</div>

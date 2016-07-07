@@ -1,7 +1,7 @@
 ---
 title: How to setup a Tor Relay (and why you should)
 author: David
-layout: page
+layout: post
 redirect_from: /tutorial/how-to-setup-a-tor-relay-and-why-you-should/
 permalink: /how-to/setup-a-tor-relay-and-why-you-should/
 header: no

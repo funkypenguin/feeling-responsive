@@ -1,7 +1,7 @@
 ---
 title: Bought a pebble watch, saved my brain
 author: David
-layout: page
+layout: post
 permalink: /opinion/bought-pebble-watch-saved-brain/
 header: no
 categories:

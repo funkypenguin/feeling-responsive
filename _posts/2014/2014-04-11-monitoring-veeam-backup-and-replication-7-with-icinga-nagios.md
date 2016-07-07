@@ -1,7 +1,7 @@
 ---
 title: Monitoring Veeam Backup and Replication 7 with Icinga / Nagios
 author: David
-layout: page
+layout: post
 redirect_from: /tutorial/monitoring-veeam-backup-and-replication-7-with-icinga-nagios/
 permalink: /how-to/monitor-veeam-backup-and-replication-7-with-icinga-nagios/
 categories:

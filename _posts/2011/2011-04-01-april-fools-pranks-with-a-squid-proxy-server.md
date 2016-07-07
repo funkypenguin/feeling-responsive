@@ -1,6 +1,6 @@
 ---
 title: April Fools Pranks with a Squid Proxy Server
-layout: page
+layout: post
 redirect_from: /tutorial/april-fools-pranks-with-a-squid-proxy-server/
 permalink: /how-to/april-fools-pranks-with-a-squid-proxy-server/
 header: no

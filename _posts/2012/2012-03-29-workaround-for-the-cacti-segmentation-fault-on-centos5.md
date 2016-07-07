@@ -1,6 +1,6 @@
 ---
 title: Workaround for the Cacti segmentation fault on CentOS5
-layout: page
+layout: post
 permalink: /note/workaround-for-the-cacti-segmentation-fault-on-centos5/
 header: no
 categories:

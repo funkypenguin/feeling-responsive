@@ -1,7 +1,7 @@
 ---
 title: Working late (consistently) is a sign of failure
 author: David
-layout: page
+layout: post
 permalink: /opinion/working-late-consistently-is-a-sign-of-failure/
 header: no
 categories:

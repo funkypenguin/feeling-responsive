@@ -1,7 +1,7 @@
 ---
 title: On the joys of Actually Reading
 author: David
-layout: page
+layout: post
 permalink: /opinion/on-the-jobs-of-actually-reading/
 header: no
 categories:

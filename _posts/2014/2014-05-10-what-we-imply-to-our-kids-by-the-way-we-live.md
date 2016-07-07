@@ -1,7 +1,7 @@
 ---
 title: What we imply to our kids by the way we live
 author: David
-layout: page
+layout: post
 permalink: /opinion/what-we-imply-to-our-kids-by-the-way-we-live/
 header: no
 categories:

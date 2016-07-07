@@ -1,7 +1,7 @@
 ---
 title: Do less to be more productive
 author: David
-layout: page
+layout: post
 permalink: /opinion/do-less-to-be-more-productive/
 header: no
 categories:

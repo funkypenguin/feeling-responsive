@@ -1,7 +1,7 @@
 ---
 title: Fixed Cacti not displaying interfaces for HP 1810G switch
 author: David
-layout: page
+layout: post
 permalink: /note/fixed-cacti-not-displaying-interfaces-for-hp-1810g-switch/
 header: no
 categories:

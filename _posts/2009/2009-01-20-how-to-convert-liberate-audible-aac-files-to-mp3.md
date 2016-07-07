@@ -1,6 +1,6 @@
 ---
 title: Convert (liberate) Audible AAC files to MP3
-layout: page
+layout: post
 permalink: /how-to/convert-liberate-audible-aac-files-to-mp3/
 redirect_from: /note/how-to-convert-liberate-audible-aac-files-to-mp3/
 header: no

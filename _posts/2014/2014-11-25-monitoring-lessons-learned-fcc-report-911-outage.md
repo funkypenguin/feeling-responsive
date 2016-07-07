@@ -1,7 +1,7 @@
 ---
 title: IT Monitoring lessons learned from FCC report into 911 outage
 author: David
-layout: page
+layout: post
 permalink: /opinion/monitoring-lessons-learned-fcc-report-911-outage/
 header: no
 categories:

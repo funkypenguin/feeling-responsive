@@ -1,6 +1,6 @@
 ---
 title: Convert a .BIN file to .TRX for OpenWRT / DD-WRT
-layout: page
+layout: post
 redirect_from: /tutorial/how-to-convert-a-bin-file-to-trx-for-openwrt-dd-wrt/
 permalink: /how-to/convert-a-bin-file-to-trx-for-openwrt-dd-wrt/
 header: no

@@ -1,6 +1,6 @@
 ---
 title: Clearing static nat on Cisco router
-layout: page
+layout: post
 permalink: /note/clearing-static-nat-on-cisco-router/
 header: no
 categories:

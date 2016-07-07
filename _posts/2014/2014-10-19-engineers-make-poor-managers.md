@@ -1,7 +1,7 @@
 ---
 title: Engineers make poor managers
 author: David
-layout: page
+layout: post
 permalink: /opinion/engineers-make-poor-managers/
 header: no
 categories:

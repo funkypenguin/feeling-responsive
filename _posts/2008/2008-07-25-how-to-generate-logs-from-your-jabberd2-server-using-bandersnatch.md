@@ -2,7 +2,7 @@
 title: Generate logs from your jabberd2 server using Bandersnatch
 author: David
 excerpt: This tutorial attempts to guide the reader through the process of installing Bandersnatch for use with an existing Jabberd2 server.
-layout: page
+layout: post
 permalink: /how-to/generate-logs-from-your-jabberd2-server-using-bandersnatch/
 redirect_from: /tutorial/how-to-generate-logs-from-your-jabberd2-server-using-bandersnatch/
 header: no

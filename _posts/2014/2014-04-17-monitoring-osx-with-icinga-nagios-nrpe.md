@@ -1,7 +1,7 @@
 ---
 title: Monitoring OSX with Icinga / Nagios using NRPE
 author: David
-layout: page
+layout: post
 header: no
 redirect_from: /tutorial/monitoring-osx-with-icinga-nagios-nrpe/
 permalink: /how-to/monitor-osx-with-icinga-nagios-nrpe/

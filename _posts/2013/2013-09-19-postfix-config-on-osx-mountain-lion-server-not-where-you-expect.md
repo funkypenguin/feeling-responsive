@@ -1,6 +1,6 @@
 ---
 title: Postfix config on OSX Mountain Lion (Server) not where you expect
-layout: page
+layout: post
 permalink: /note/postfix-config-on-osx-mountain-lion-server-not-where-you-expect/
 header: no
 categories:

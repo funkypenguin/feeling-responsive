@@ -3,7 +3,7 @@ title: Watching video is harder than reading
 excerpt: This video complains that we're getting ever worse at focusing our attention
 author: David
 header: no
-layout: page
+layout: post
 permalink: /opinion/watching-video-harder-reading/
 categories:
   - opinion

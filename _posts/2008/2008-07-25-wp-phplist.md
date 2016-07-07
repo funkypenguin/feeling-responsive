@@ -3,7 +3,7 @@ title: WP-PHPList
 author: David
 header: no
 excerpt: The WP-PHPlist plugin integrates PHPList into your Wordpress blog, giving you all the mailing list power of PHPList, within the beautiful styling, theme, and widgets of your Wordpress theme.
-layout: page
+layout: post
 categories:
   - project
 tags:

@@ -1,7 +1,7 @@
 ---
 title: The illusion of speed
 author: David
-layout: page
+layout: post
 permalink: /opinion/the-illusion-of-speed/
 header: no
 categories:
