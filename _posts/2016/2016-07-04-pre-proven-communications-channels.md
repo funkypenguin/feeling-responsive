@@ -5,6 +5,9 @@ date: 2016-07-04 22:30:49
 title: The importance of pre-proven communication channels during an emergency
 teaser: Is anybody out there?
 tags:  postmortem
+image:
+  title: /public/images/emergency-communication-channels.jpg
+  caption: incident management workflow
 ---
 ![](/public/images/emergency-communication-channels.jpg)
 
