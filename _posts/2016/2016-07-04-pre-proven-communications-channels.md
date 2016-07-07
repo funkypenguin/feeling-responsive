@@ -10,4 +10,8 @@ In [What Happened: Adobe Creative Cloud Update Bug](https://www.backblaze.com/bl
 
 > Side-Note: our lead Mac developer, support team, and I were all working from different locations. The lead Mac developer was working from home, the support team was in the office (some of them were also working remotely) and I was in San Diego at a conference. We used Slack to coordinate and it worked pretty well for a real-time event like this.
 
-The lesson: It's important to have pre-existing processes for emergency incident management in place, to reduce stress and maximize focus on issue resolution. Within [Prophecy](http://www.prophecy.net.nz), we have a pre-established IM channel, as well as a dedicated conf call bridge for incident management. This allows our staff (who are almost always remote and disparate) to quickly and efficiently co-ordinate and collaborate during an outage.
+It's important to have pre-existing processes for emergency incident management in place, to reduce stress and maximize focus on issue resolution. Within [Prophecy](http://www.prophecy.net.nz), we have a pre-established IM channel, as well as a dedicated conf call bridge for incident management. This allows our staff (who are almost always remote and disparate) to quickly and efficiently co-ordinate and collaborate during an outage. 
+
+Here's an example incident management process:
+
+![](https://www.funkypenguin.co.nz/images/basic-incident-management-process.jpg)
