@@ -4,6 +4,7 @@
 # 2. Change author in default settings in config.yml
 #
 # Ressource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
-your_author_name:
+funkypenguin:
     name: "David Young"
-    url: http://www.funkypenguin.co.nz/
+    url: https://www.funkypenguin.co.nz/
+    twitter: funkypenguin

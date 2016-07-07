@@ -20,7 +20,7 @@ description: "An attempt to upgrade the world through the skilled application of
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: funkypenguin
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -54,8 +54,13 @@ logo: "logo.png"
 gems:
     - jekyll-gist
     - jekyll-paginate
+    - jekyll-mentions
+    - jemoji
+
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
+
+jekyll-mentions: https://twitter.com # make @username links resolve to twitter profiles
 
 
 
@@ -109,7 +114,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: 'funkypenguin'
       breadcrumb: false
       header: no
   -
@@ -121,7 +126,7 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: true
       header: no
-      author: "your_author_name"
+      author: 'funkypenguin'
 
 
 
@@ -196,8 +201,8 @@ og_description:                     "Upgrading the world through the skilled app
 #
 
 socialmedia:
-    twitter: phlow
-    facebook: phlow.media
+    twitter: funkypenguin
+
 
 
 #        ____  _
@@ -255,3 +260,7 @@ google_analytics_tracking_id: UA-139253-8
 # used in _includes/footer_scripts
 
 tawkto_embed_uri: https://embed.tawk.to/562a16b93b15612a42b039f9/default
+
+# For SEO plugin
+twitter:
+  username: funkypenguin
