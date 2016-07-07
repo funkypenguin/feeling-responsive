@@ -6,7 +6,7 @@ title: The importance of pre-proven communication channels during an emergency
 teaser: Is anybody out there?
 tags:  postmortem
 ---
-![]({{ site.imageurl }}emergency-communication-channels.jpg)
+![](/public/images/emergency-communication-channels.jpg)
 
 In [What Happened: Adobe Creative Cloud Update Bug](https://www.backblaze.com/blog/adobe-creative-cloud-update-bug), I read:
 
