@@ -3,7 +3,7 @@ layout: post
 category: opinion
 date: 2016-07-09 22:59:29
 title: "Buy experiences, not gadgets"
-teaser:
+teaser: Your loot won't make you happy, long-term
 tags: happiness
 ---
 
