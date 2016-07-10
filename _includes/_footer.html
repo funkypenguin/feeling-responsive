@@ -13,7 +13,7 @@
 
             <p class="shadow-black">
               {{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
+              <a href="{{ site.url }}{{ site.baseurl }}/about/">{{ site.data.language.more }}</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -59,11 +59,10 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="b30 small-12 medium-6 columns">
-            <ul class="inline-list">
-              <li>Pieced together with &hearts; by <a style="display:inline;" href="https://www.funkypenguin.co.nz/">Funky Penguin</a> with <a style="display:inline;" href="http://jekyllrb.com/" target="_blank">Jekyll</a> using <a style="display:inline;" href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> </li>
-            </ul>
-          </section>
+          <nav class="row">
+            <section id="subfooter-left" class="small-12 medium-6 columns credits">
+              {{ site.credits }}
+            </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns social-icons">
             <ul class="inline-list">
