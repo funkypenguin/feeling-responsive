@@ -9,9 +9,7 @@ tags: happiness
 
 In [The Science Of Why You Should Spend Your Money On Experiences, Not Things](http://www.fastcoexist.com/3043858/world-changing-ideas/the-science-of-why-you-should-spend-your-money-on-experiences-not-thing), I read:
 
-> "One of the enemies of happiness is adaptation,
-
-> "We buy things to make us happy, and we succeed. But only for a while. New things are exciting to us at first, but then we adapt to them."
+> "One of the enemies of happiness is adaptation ... "We buy things to make us happy, and we succeed. But only for a while. New things are exciting to us at first, but then we adapt to them."
 
 ​Agreed. Buying new tech is fun for a while, but soon becomes the "new normal"
 
