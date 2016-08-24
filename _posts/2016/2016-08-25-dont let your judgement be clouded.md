@@ -41,7 +41,7 @@ This echoes the [SOHO outage](https://www.funkypenguin.co.nz/postmortem/Spacecra
 
 The more complex the notification system (PagerDuty allows individuals to customize their notifications), the more chance it'll break down and fail at the worst moment. 
 
-(At [Prophecy](http://www.prophecy.net.nz), we'Ve refined our system over time. We use redundant [Icinga](http://www.icinga.org) instances (which each monitor each other) which that email, TXT (and even phone, depending on criticality) through a rostered oncall / escalation tree until someone takes ownership of an alert. There's no end-user configuration or apps needed, and it works on any brand of smartphone.)
+(At [Prophecy](http://www.prophecy.net.nz), we'Ve refined our system over time. We use redundant [Icinga](http://www.icinga.org) instances (which each monitor each other) which email, TXT (and even phone, depending on criticality) through a rostered oncall / escalation tree until someone takes ownership of an alert. There's no end-user configuration or apps needed, and it works on any brand of smartphone.)
 
 > We logged into the AWS Console and tried upgrading the database, but due to IAM issues AWS was experiencing, the interface wouldn’t let us make the changes.
 
