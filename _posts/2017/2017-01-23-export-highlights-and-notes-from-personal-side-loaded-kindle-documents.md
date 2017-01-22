@@ -38,4 +38,4 @@ To produce this, I just ran:
 
     ruby parse_my_clippings.rb /Volumes/Kindle/documents/My\ Clippings.txt ~/Desktop/ true
 
-Thanks [@janedallaway](https://twitter.com/janedallawy)!
+Thanks [@janedallaway](https://twitter.com/janedallaway)!
