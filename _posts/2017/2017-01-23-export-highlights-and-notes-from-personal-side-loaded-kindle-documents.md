@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Export highlights and notes from personal side-loaded Kindle Documents
+title: Export highlights and notes from side-loaded Kindle documents
 date: '2017-01-23 08:55'
 categories: howto
 ---
