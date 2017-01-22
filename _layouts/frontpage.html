@@ -69,7 +69,7 @@ format: frontpage
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
             <p>
-                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
             </p>
 
             {% if post.image.caption_url and post.image.caption %}
@@ -89,19 +89,19 @@ format: frontpage
 
     <div class="row">
         <div class="medium-6 columns">
-            {% for post in site.posts limit:2 %}
+            {% for post in site.posts limit:3 %}
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% elsif post.categories %}<p class="subheadline">{{ post.categories | join: ' · ' | upcase }}</p>{% endif %}
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-                 - <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+                 - <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}
         </div><!-- /.medium-5.columns -->
 
 
         <div class="medium-6 columns">
-            {% include list-posts entries='10' offset='2' %}
+            {% include list-posts entries='12' offset='3' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 {% endunless %}
