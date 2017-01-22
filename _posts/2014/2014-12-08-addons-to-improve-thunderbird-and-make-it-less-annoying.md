@@ -32,7 +32,7 @@ It's bothered me for years that when I paste formatted content into a message in
 
 The solution is stupidly simple. **When pasting formatted content, use SHIFT-COMMAND-V to paste without formatting**. (Yes, this is also in the edit menu)
 
-Secondly, Thunderbird behaves badly with font sizes. Fix it with the [Quote and Compose Manager][4]{.broken_link} add-on, which "stabilizes" your compose font, among other tweaks. I've set mine to Tahoma 16-point, after reading about how it's the [most accessible size][5].
+Secondly, Thunderbird behaves badly with font sizes. Fix it with the [Quote and Compose Manager][4](https://freeshell.de/~kaosmos/quoteandcomposemanager-en.html) add-on, which "stabilizes" your compose font, among other tweaks. I've set mine to Tahoma 16-point, after reading about how it's the [most accessible size][5].
 
 ## What have you done for me lately? {#whathaveyoudoneformelately}
 
