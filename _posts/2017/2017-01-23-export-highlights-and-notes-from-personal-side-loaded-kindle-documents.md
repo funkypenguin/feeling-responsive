@@ -3,6 +3,7 @@ layout: post
 title: Export highlights and notes from side-loaded Kindle documents
 date: '2017-01-23 08:55'
 categories: howto
+teaser: 'Turn those highlights into something meaningful without text-formatting pain'
 ---
 
 When I finished reading [Cal Newport](http://calnewport.com/)'s [Deep Work](http://calnewport.com/books/deep-work/), I wanted a way to export my side-loaded Kindle highlights into a text format for simple access, so that I can further annotate them and publish a review.
