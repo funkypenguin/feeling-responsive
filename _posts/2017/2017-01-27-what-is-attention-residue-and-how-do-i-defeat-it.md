@@ -3,7 +3,7 @@ layout: post
 category: review
 date: 31-01-2017 03:39:57
 title: Why you suffer from "attention residue"
-teaser: "Do you find it hard to switch to a new task, leaving the previous task incomplete. There's a term for that, and it's got to do with how your brain works."
+teaser: "Do you find it hard to switch to a new task, leaving the previous task incomplete? There's a term for that, and it's got to do with how your brain works."
 tags: "interruption"
 ---
 
