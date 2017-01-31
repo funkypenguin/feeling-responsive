@@ -1,11 +1,21 @@
-I recently finished my first read of [Deep Work][dw] (Rules for Focused Success in a Distracted World) by Cal Newport. 
+---
+layout: post
+category: opinion
+date: 20-01-2017 23:39:57
+title: "Reducing impact of interruption"
+teaser: "What Amazon should have called all those services"
+tags: "cloud"
+---
+
+
+I recently finished my first read of [Deep Work][dw] (Rules for Focused Success in a Distracted World) by Cal Newport.
 
 The thesis of Deep Work is that we do our best work when we're (a) uninterrupted for long periods, and (b) pushing our cognitive abilities to their limits. Cal first establishes his position with anecdotes backed by studies, and then he presents several practical methods to benefit more from "deep work"
 
 One of the first striking insights was the concept of "attention residue". Cal quotes a paper by Sophie Leroy, titled "[Why is it so hard to do my work?](http://www.sciencedirect.com/science/article/pii/S0749597809000399)". Sophie explores the notion that we all have:
 
  A need to complete a task we've started:
- 
+
 > The need for completion, which everyone experiences when pursuing a goal or working on a task, represents the need to attain a task goal (Lewin, 1926, 1935)
 
 A need for cognitive closure:
@@ -16,7 +26,7 @@ Sophie defines attention residue:
 
 > Attention residue represents the extent to which a person’s attention is only partially focused on a current activity (task or social interaction) because a prior activity is still holding part of his or her attention. More precisely, that prior activity has stayed active in working memory - up through the present - and keeps attracting attention even though one has had to engage in another activity
 
-What's also interesting is that because there are two needs which drive us to completion (task completion and cognitive closure), it's possible to complete a task but be unable to stop thinking about it. 
+What's also interesting is that because there are two needs which drive us to completion (task completion and cognitive closure), it's possible to complete a task but be unable to stop thinking about it.
 
 My personal experience is that this happens on particularly complex and challenging tasks - I finish a piece of design work, or complete building a system, only to continue thinking about its components (and ways I could improve it) for several hours more.
 
@@ -24,8 +34,8 @@ My personal experience is that this happens on particularly complex and challeng
 
 So if we can increase our need for cognitive closure on a completed task, we reduce the attention residue and increase our ability to focus on our **next** task. Note however, that the greater your need for cognitive closure, more hastily you accept a solution, and the more closed you are to your conclusion being questioned
 
->Once they have a solution, people who desire cognitive closure freeze on their position, stop processing information, and ignore any new or alternative ideas (Kruglanski & Webster, 1996). They also become very confident in their own judgments and past actions (Kruglanski & Webster, 1996), which further motivates them to stop thinking about the situation. 
-> 
+>Once they have a solution, people who desire cognitive closure freeze on their position, stop processing information, and ignore any new or alternative ideas (Kruglanski & Webster, 1996). They also become very confident in their own judgments and past actions (Kruglanski & Webster, 1996), which further motivates them to stop thinking about the situation.
+>
 By contrast, people who are not motivated to get cognitive closure tend to keep thinking about a situation even after an answer has been found. They feel less confident in their solutions or decisions (Kruglanski & Webster, 1996), stay open to new information or alternative ideas (Kruglanski & Webster, 1996), and keep exploring competing hypotheses (Mayseless & Kruglanski, 1987, study 3).
 
 So what drives the need for cognitive closure? Basically the modern work environment:

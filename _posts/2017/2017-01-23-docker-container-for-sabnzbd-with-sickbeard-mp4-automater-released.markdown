@@ -3,7 +3,7 @@ layout: "post"
 title: "Sabnzbd docker container updated, now includes sickbeard_mp4_automator"
 date: "2017-01-23 20:42"
 category: note
-subheadline: "Easily post-process downloaded media for Plex Direct Play, subtitles, sorting, etc."
+teaser: "Easily post-process downloaded media for Plex Direct Play, subtitles, sorting, etc."
 ---
 
 <div class="panel radius" markdown="1">
