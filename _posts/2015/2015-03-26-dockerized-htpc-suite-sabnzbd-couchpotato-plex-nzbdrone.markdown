@@ -19,38 +19,52 @@ teaser: A "One Ring" to control a dockerized suite of HTPC apps, each in their o
 
 ## Introduction
 
-Introducing [docker-htpc-suite](https://github.com/funkypenguin/docker-htpc-suite), a set of automated / manual scripts to control an integrated set of "dockerized" HTPC suite of tools, including
+Introducing [docker-htpc-suite](https://github.com/funkypenguin/docker-htpc-suite), a set of automated / manual scripts to control an integrated set of "dockerized" HTPC suite of tools, including:
 
 * [sabnzbd][1]
 * [couchpotato][2]
-* [nzbdrone][3]
+* [sonarr][3]
 * [plex][4]
+* [plexrequests][5]
+* [plexpx][6]
+* [nzbhydra][7]
+* [headphones][8]
+* [mylar][9]
+* [rtorrent][10] + [rutorrent][11]
 
-[1]: https://github.com/funkypenguin/sabnzbd
-[2]: https://github.com/funkypenguin/couchpotato
-[3]: https://github.com/funkypenguin/nzbdrone
-[4]: https://github.com/funkypenguin/plex
 
+[1]: https://sabnzbd.org
+[2]: https://couchpota.to/
+[3]: https://sonarr.tv/
+[4]: https://www.plex.tv
+[5]: http://plexrequests.8bits.ca/
+[6]: https://github.com/JonnyWong16/plexpy
+[7]: https://github.com/theotherp/nzbhydra
+[8]: https://github.com/rembo10/headphones
+[9]: https://github.com/evilhero/mylar
+[10]: https://wiki.archlinux.org/index.php/RTorrent
+[11]: https://github.com/Novik/ruTorrent
 
 ## Quick Start (using docker-compose)
 
-On a docker-enabled, host, clone the repo
-
-    git clone https://github.com/funkypenguin/docker-htpc-suite.git
+On a docker-enabled, host, clone the repo:
+{% include alert terminal='git clone https://github.com/funkypenguin/docker-htpc-suite.git' %}
 
 Then change into the working directory:
-
-    cd docker-htpc-suite
+{% include alert terminal='cd docker-htpc-suite' %}
 
 Edit docker-compose.yml, and change the media location folder on line 4.
 
 Add a local user to the base docker host named "htpc" with UID 4242 (the meaning of 2 lives). Make sure this user has all the necessary access to the media folder location.
+
+{% include alert terminal='useradd -u 4242 -g 4242 -d /path/to/media htpc' %}
 
 Start up the docker containers by running ```docker-compose up -d```
 
 This will do the following:
 
 1. Establish a data container for common data access to a path on your filesystem (/srv/data by default), belonging to the user "htpc" with UID 4242
+
 2. Start each app container, creating a subdirectory in the current working directory for its persistent config (database, settings, etc), and linking /data to the data container
 
 You can now connect to your suite on the following URLs:

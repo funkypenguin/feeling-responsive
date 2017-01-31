@@ -1,0 +1,115 @@
+I recently finished my first read of [Deep Work][dw] (Rules for Focused Success in a Distracted World) by Cal Newport. 
+
+The thesis of Deep Work is that we do our best work when we're (a) uninterrupted for long periods, and (b) pushing our cognitive abilities to their limits. Cal first establishes his position with anecdotes backed by studies, and then he presents several practical methods to benefit more from "deep work"
+
+One of the first striking insights was the concept of "attention residue". Cal quotes a paper by Sophie Leroy, titled "[Why is it so hard to do my work?](http://www.sciencedirect.com/science/article/pii/S0749597809000399)". Sophie explores the notion that we all have:
+
+ A need to complete a task we've started:
+ 
+> The need for completion, which everyone experiences when pursuing a goal or working on a task, represents the need to attain a task goal (Lewin, 1926, 1935)
+
+A need for cognitive closure:
+
+>The need for cognitive closure is defined as a fundamental need for an answer, any answer as opposed to confusion or ambiguity on a given problem (Kruglanski, 1990)
+
+Sophie defines attention residue:
+
+> Attention residue represents the extent to which a person’s attention is only partially focused on a current activity (task or social interaction) because a prior activity is still holding part of his or her attention. More precisely, that prior activity has stayed active in working memory - up through the present - and keeps attracting attention even though one has had to engage in another activity
+
+What's also interesting is that because there are two needs which drive us to completion (task completion and cognitive closure), it's possible to complete a task but be unable to stop thinking about it. 
+
+My personal experience is that this happens on particularly complex and challenging tasks - I finish a piece of design work, or complete building a system, only to continue thinking about its components (and ways I could improve it) for several hours more.
+
+>To fully stop thinking about a task, people have to complete the task and reach cognitive closure. As a result, task completion may not always prevent attention residue from occurring when people switch tasks.
+
+So if we can increase our need for cognitive closure on a completed task, we reduce the attention residue and increase our ability to focus on our **next** task. Note however, that the greater your need for cognitive closure, more hastily you accept a solution, and the more closed you are to your conclusion being questioned
+
+>Once they have a solution, people who desire cognitive closure freeze on their position, stop processing information, and ignore any new or alternative ideas (Kruglanski & Webster, 1996). They also become very confident in their own judgments and past actions (Kruglanski & Webster, 1996), which further motivates them to stop thinking about the situation. 
+> 
+By contrast, people who are not motivated to get cognitive closure tend to keep thinking about a situation even after an answer has been found. They feel less confident in their solutions or decisions (Kruglanski & Webster, 1996), stay open to new information or alternative ideas (Kruglanski & Webster, 1996), and keep exploring competing hypotheses (Mayseless & Kruglanski, 1987, study 3).
+
+So what drives the need for cognitive closure? Basically the modern work environment:
+
+>Previous research has found that the need for cognitive closure is heightened under time pressure (Heaton & Kruglanski, 1991; Kruglanski & Freund, 1983), mental fatigue (Webster, Richter, & Kruglanski, 1996) or environmental noise (Kruglanski & Webster, 1991)
+
+
+
+> That quick check introduces a new target for your attention. Even worse, by seeing messages that you cannot deal with at the moment (which is almost always the case), you’ll be forced to turn back to the primary task with a secondary task left unfinished. The attention residue left by such unresolved switches dampens your performance.
+
+> Jack Dorsey is important to our discussion because he’s an exemplar of a group we cannot ignore: individuals who thrive without depth. When I titled the motivating question of this section “What About Jack Dorsey?,” I was providing a specific example of a more general query: If deep work is so important, why are there distracted people who do well? To conclude this chapter, I want to address this question so it doesn’t nag at your attention as we dive deeper into the topic of depth in the pages ahead.
+
+> To ask a CEO to spend four hours thinking deeply about a single problem is a waste of what makes him or her valuable. It’s better to hire three smart subordinates to think deeply about the problem and then bring their solutions to the executive for a final decision.
+
+> Indeed, many software companies now deploy the Scrum project management methodology, which replaces a lot of this ad hoc messaging with regular, highly structured, and ruthlessly efficient status meetings (often held standing up to minimize the urge to bloviate).
+
+> This is not outlier behavior; it’s instead the new normal. When the novelist Jonathan Franzen wrote a piece for the Guardian calling Twitter a “coercive development” in the literary world, he was widely ridiculed as out of touch. The online magazine Slate called Franzen’s complaints a “lonely war on the Internet” and fellow novelist Jennifer Weiner wrote a response in The New Republic in which she argued, “Franzen’s a category of one, a lonely voice issuing ex cathedra edicts that can only apply to himself.” The sarcastic hashtag #JonathanFranzenhates soon became a fad.
+
+>.. her co-authors observed knowledge workers in real offices and found that an interruption, even if short, delays the total time required to complete a task by a significant fraction. “This was reported by subjects as being very detrimental,” she summarized with typical academic understatement.
+
+>The enabling assumption driving his argument is that “it is objectively difficult to measure individual contributions to a firm’s output.” In the absence of such measures, irrational outcomes, such as executive salaries way out of proportion to the executive’s marginal productivity, can occur. Even though some details of Piketty’s theory are controversial, the underlying assumption that it’s increasingly difficult to measure individuals’ contributions is generally considered, to quote one of his critics, “undoubtedly true.”
+
+>In researching this topic, Harvard Business School professor Leslie Perlow found that the professionals she surveyed spent around twenty to twenty-five hours a week outside the office monitoring e-mail—believing it important to answer any e-mail (internal or external) within an hour of its arrival.
+
+>The Principle of Least Resistance: In a business setting, without clear feedback on the impact of various behaviors to the bottom line, we will tend toward behaviors that are easiest in the moment.
+
+>If you couldn’t count on this quick response time you’d instead have to do more advance planning for your work, be more organized, and be prepared to put things aside for a while and turn your attention elsewhere while waiting for what you requested. All of this would make the day to day of your working life harder (even if it produced more satisfaction and a better outcome in the long term). The rise of professional instant messaging, mentioned earlier in this chapter, can be seen as this mind-set pushed toward an extreme. If receiving an e-mail reply within an hour makes your day easier, then getting an answer via instant message in under a minute would improve this gain by an order of magnitude.
+
+>The second reason that a culture of connectivity makes life easier is that it creates an environment where it becomes acceptable to run your day out of your inbox—responding to the latest missive with alacrity while others pile up behind it, all the while feeling satisfyingly productive (more on this soon). If e-mail were to move to the periphery of your workday, you’d be required to deploy a more thoughtful approach to figuring out what you should be working on and for how long. This type of planning is hard.
+
+>To name another example, consider the common practice of setting up regularly occurring meetings for projects. These meetings tend to pile up and fracture schedules to the point where sustained focus during the day becomes impossible. Why do they persist? They’re easier. For many, these standing meetings become a simple (but blunt) form of personal organization. Instead of trying to manage their time and obligations themselves, they let the impending meeting each week force them to take some action on a given project and more generally provide a highly visible simulacrum of progress.
+
+>Also consider the frustratingly common practice of forwarding an e-mail to one or more colleagues, labeled with a short open-ended interrogative, such as: “Thoughts?” These e-mails take the sender only a handful of seconds to write but can command many minutes (if not hours, in some cases) of time and attention from their recipients to work toward a coherent response. A little more care in crafting the message by the sender could reduce the overall time spent by all parties by a significant fraction. So why are these easily avoidable and time-sucking e-mails so common? From the sender’s perspective, they’re easier. It’s a way to clear something out of their inbox—at least, temporarily—with a minimum amount of energy invested.
+
+>Even when they’re required to complete something more involved, the habit of frequently checking inboxes ensures that these issues remain at the forefront of their attention. Gallagher teaches us that this is a foolhardy way to go about your day, as it ensures that your mind will construct an understanding of your working life that’s dominated by stress, irritation, frustration, and triviality. The world represented by your inbox, in other words, isn’t a pleasant world to inhabit.
+
+>Even when they’re required to complete something more involved, the habit of frequently checking inboxes ensures that these issues remain at the forefront of their attention. Gallagher teaches us that this is a foolhardy way to go about your day, as it ensures that your mind will construct an understanding of your working life that’s dominated by stress, irritation, frustration, and triviality. The world represented by your inbox, in
+
+>Csikszentmihalyi’s work with ESM helped validate a theory he had been developing over the preceding decade: “The best moments usually occur when a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile.” Csikszentmihalyi calls this mental state flow (a term he popularized with a 1990 book of the same title). At the time, this finding pushed back against conventional wisdom. Most people assumed (and still do) that relaxation makes them happy. We want to work less and spend more time in the hammock. But the results from Csikszentmihalyi’s ESM studies reveal that most people have this wrong: Ironically, jobs are actually easier to enjoy than free time, because like flow activities they have built-in goals, feedback rules, and challenges, all of which encourage one to become involved in one’s work, to concentrate and lose oneself in it. Free time, on the other hand, is unstructured, and requires much greater effort to be shaped into something that can be enjoyed. When measured empirically, people were happier at work and less happy relaxing than they suspected.
+
+>...medium, they note, the craftsman has stumbled onto something crucial in a post-Enlightenment world: a source of meaning sited outside the individual. The wheelwright doesn’t decide arbitrarily which virtues of the wood he works are valuable and which are not; this value is inherent in the wood and the task it’s meant to perform.
+
+>The task of a craftsman, they conclude, “is not to generate meaning, but rather to cultivate in himself the skill of discerning the meanings that are already there.”
+
+>Only the confidence that you’re done with work until the next day can convince your brain to downshift to the level where it can begin to recharge for the next day to follow.
+
+>This constant switching can be understood analogously as weakening the mental muscles responsible for organizing the many sources vying for your attention. By segregating Internet use (and therefore segregating distractions) you’re minimizing the number of times you give in to distraction, and by doing so you let these attention-selecting muscles strengthen.
+
+>One place where this strategy becomes particularly difficult outside work is when you’re forced to wait (for example, standing in line at a store). It’s crucial in these situations that if you’re in an offline block, you simply gird yourself for the temporary boredom, and fight through it with only the company of your thoughts. To simply wait and be bored has become a novel experience in modern life, but from the perspective of concentration training, it’s incredibly valuable.
+
+>Like Roosevelt at Harvard, attack the task with every free neuron until it gives way under your unwavering barrage of concentration.
+
+>The same holds true for your professional and personal goals. By taking the time consumed by low-impact activities—like finding old friends on Facebook—and reinvesting in high-impact activities—like taking a good friend out to lunch—you end up more successful in your goal. To abandon a network tool using this logic, therefore, is not to miss out on its potential small benefits, but is instead to get more out of the activities you already know to yield large benefits.
+
+>This strategy picks specifically on social media because among the different network tools that can claim your time and attention, these services, if used without limit, can be particularly devastating to your quest to work deeper. They offer personalized information arriving on an unpredictable intermittent schedule—making them massively addictive and therefore capable of severely damaging your attempts to schedule and succeed with any act of concentration.
+
+>A blog or magazine or television program that contained the content that typically populates a Facebook wall or Twitter feed, for example, would attract, on average, no audience. But when captured within the social conventions of these services, that same content will attract attention in the form of likes and comments. The implicit agreement motivating this behavior is that in return for receiving (for the most part, undeserved) attention from your friends and followers, you’ll return the favor by lavishing (similarly undeserved) attention on them. You “like” my status update and I’ll “like” yours. This agreement gives everyone a simulacrum of importance without requiring much effort in return.
+
+>This list will undoubtedly continue to evolve, but what this general category of sites shares is the use of carefully crafted titles and easily digestible content, often honed by algorithms to be maximally attention catching.
+
+>These sites are especially harmful after the workday is over, where the freedom in your schedule enables them to become central to your leisure time. If you’re waiting in line, or waiting for the plot to pick up in a TV show, or waiting to finish eating a meal, they provide a cognitive crutch to ensure you eliminate any chance of boredom. As I argued in Rule #2, however, such behavior is dangerous, as it weakens your mind’s general ability to resist distraction, making deep work difficult later when you really want to concentrate. To make matters worse, these network tools are not something you join and therefore they’re not something you can remove from your life by quitting (rendering the previous two strategies irrelevant). They’re always available, just a quick click away.
+
+>One of the chief things which my typical man has to learn is that the mental faculties are capable of a continuous hard activity; they do not tire like an arm or a leg. All they want is change—not rest, except in sleep.
+
+>To summarize, if you want to eliminate the addictive pull of entertainment sites on your time and attention, give your brain a quality alternative.
+
+>When you have fewer hours you usually spend them more wisely.
+
+>37signals’ experiments highlight an important reality: The shallow work that increasingly dominates the time and attention of knowledge workers is less vital than it often seems in the moment. For most businesses, if you eliminated significant amounts of this shallowness, their bottom line would likely remain unaffected.
+
+>For those familiar with the rigors of such activities, the limit expands to something like four hours, but rarely more. The implication is that once you’ve hit your deep work limit in a given day, you’ll experience diminishing rewards if you try to cram in more.
+
+>The third tactic I suggest is to be liberal with your use of task blocks. Deploy many throughout your day and make them longer than required to handle the tasks you plan in the morning. Lots of things come up during the typical knowledge worker’s day: Having regularly occurring blocks of time to address these surprises keeps things running smoothly.
+
+>It’s the habit of asking that returns results, not your unyielding fidelity to the answer.
+
+>I would go so far as to argue that someone following this combination of comprehensive scheduling and a willingness to adapt or modify the plan as needed will likely experience more creative insights than someone who adopts a more traditionally “spontaneous” approach where the day is left open and unstructured.
+
+>To summarize, the motivation for this strategy is the recognition that a deep work habit requires you to treat your time with respect.
+
+>It’s natural, at first, to resist this idea, as it’s undoubtedly easier to continue to allow the twin forces of internal whim and external requests to drive your schedule. But you must overcome this distrust of structure if you want to approach your true potential as someone who creates things that matter.
+
+>No discussion of shallow work is complete without considering e-mail. This quintessential shallow activity is particularly insidious in its grip on most knowledge workers’ attention, as it delivers a steady stream of distractions addressed specifically to you.
+
+>By instead resetting your correspondents’ expectations to the reality that you’ll probably not respond, the experience is transformed. The inbox is now a collection of opportunities that you can glance at when you have the free time—seeking out those that make sense for you to engage.
+
+[dw]: http://calnewport.com/books/deep-work/
